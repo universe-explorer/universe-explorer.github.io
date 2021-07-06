@@ -1,0 +1,357 @@
+{
+  "api/Global.AbstractCombatController.html": {
+    "href": "api/Global.AbstractCombatController.html",
+    "title": "Class AbstractCombatController | Universe Explorer Unity documentation",
+    "keywords": "Class AbstractCombatController Inheritance System.Object AbstractCombatController CombatControllerEnemy CombatControllerPlayer Namespace : Global Assembly : cs.temp.dll.dll Syntax public abstract class AbstractCombatController : MonoBehaviour Constructors AbstractCombatController() Declaration public AbstractCombatController() Fields _Ammo Declaration public int _Ammo Field Value Type Description System.Int32 _CannShoot Declaration public bool _CannShoot Field Value Type Description System.Boolean _Damage Declaration public float _Damage Field Value Type Description System.Single _Health Declaration public float _Health Field Value Type Description System.Single _MaxHealth Declaration protected float _MaxHealth Field Value Type Description System.Single _MaxShootDistance Declaration public float _MaxShootDistance Field Value Type Description System.Single Methods Die() Declaration public abstract void Die() GetHealth(Single) Declaration public void GetHealth(float amount) Parameters Type Name Description System.Single amount HealthChanged() Declaration public abstract void HealthChanged() SetMaxHealth(Single) Declaration public void SetMaxHealth(float newMaxHealth) Parameters Type Name Description System.Single newMaxHealth TakeDamage(Single) Declaration public void TakeDamage(float amount) Parameters Type Name Description System.Single amount"
+  },
+  "api/Global.AsteroidBehaviour.html": {
+    "href": "api/Global.AsteroidBehaviour.html",
+    "title": "Class AsteroidBehaviour | Universe Explorer Unity documentation",
+    "keywords": "Class AsteroidBehaviour Inheritance System.Object AsteroidBehaviour Namespace : Global Assembly : cs.temp.dll.dll Syntax public class AsteroidBehaviour : MonoBehaviour Fields growFactor Declaration public float growFactor Field Value Type Description System.Single maxSize Declaration public float maxSize Field Value Type Description System.Single waitTime Declaration public float waitTime Field Value Type Description System.Single Methods Remove() Declaration public void Remove() Setup(Single, Single, Single, Single, Single) Declaration public void Setup(float thrust, float rotationSpeed, float mass, float drag, float angularDrag) Parameters Type Name Description System.Single thrust System.Single rotationSpeed System.Single mass System.Single drag System.Single angularDrag Setup(Single, Single, Single, Single, Single, GameObject, Single) Declaration public void Setup(float thrust, float rotationSpeed, float mass, float drag, float angularDrag, GameObject parent, float orbitSpeed) Parameters Type Name Description System.Single thrust System.Single rotationSpeed System.Single mass System.Single drag System.Single angularDrag GameObject parent System.Single orbitSpeed"
+  },
+  "api/Global.AsteroidField.html": {
+    "href": "api/Global.AsteroidField.html",
+    "title": "Class AsteroidField | Universe Explorer Unity documentation",
+    "keywords": "Class AsteroidField Inheritance System.Object AsteroidField Namespace : Global Assembly : cs.temp.dll.dll Syntax public class AsteroidField : MonoBehaviour Fields _angularDrag Declaration public float _angularDrag Field Value Type Description System.Single _drag Declaration public float _drag Field Value Type Description System.Single _mass Declaration public float _mass Field Value Type Description System.Single asteroidPrefabs Declaration public GameObject[] asteroidPrefabs Field Value Type Description GameObject [] hugeAsteroidSizeMax Declaration public float hugeAsteroidSizeMax Field Value Type Description System.Single hugeAsteroidSizeMin Declaration public float hugeAsteroidSizeMin Field Value Type Description System.Single hugeSizedAsteroids Declaration public int hugeSizedAsteroids Field Value Type Description System.Int32 normalAsteroidSizeMax Declaration public float normalAsteroidSizeMax Field Value Type Description System.Single normalAsteroidSizeMin Declaration public float normalAsteroidSizeMin Field Value Type Description System.Single normalSizedAsteroids Declaration public int normalSizedAsteroids Field Value Type Description System.Int32 rotationSpeedMax Declaration public float rotationSpeedMax Field Value Type Description System.Single rotationSpeedMin Declaration public float rotationSpeedMin Field Value Type Description System.Single thrustMax Declaration public float thrustMax Field Value Type Description System.Single thrustMin Declaration public float thrustMin Field Value Type Description System.Single Methods RandomPointInBounds(Bounds) Declaration public static Vector3 RandomPointInBounds(Bounds bounds) Parameters Type Name Description Bounds bounds Returns Type Description Vector3"
+  },
+  "api/Global.AsteroidFieldEditor.html": {
+    "href": "api/Global.AsteroidFieldEditor.html",
+    "title": "Class AsteroidFieldEditor | Universe Explorer Unity documentation",
+    "keywords": "Class AsteroidFieldEditor Inheritance System.Object AsteroidFieldEditor Namespace : Global Assembly : cs.temp.dll.dll Syntax public class AsteroidFieldEditor : Editor Methods OnInspectorGUI() Declaration public override void OnInspectorGUI()"
+  },
+  "api/Global.AsteroidRing.html": {
+    "href": "api/Global.AsteroidRing.html",
+    "title": "Class AsteroidRing | Universe Explorer Unity documentation",
+    "keywords": "Class AsteroidRing Inheritance System.Object AsteroidRing Namespace : Global Assembly : cs.temp.dll.dll Syntax public class AsteroidRing : MonoBehaviour Fields amountOfAsteroids Declaration public int amountOfAsteroids Field Value Type Description System.Int32 asteroidPrefabs Declaration public GameObject[] asteroidPrefabs Field Value Type Description GameObject [] asteroidSizeMax Declaration public float asteroidSizeMax Field Value Type Description System.Single asteroidSizeMin Declaration public float asteroidSizeMin Field Value Type Description System.Single height Declaration public float height Field Value Type Description System.Single innerRadius Declaration public float innerRadius Field Value Type Description System.Single orbitSpeedMax Declaration public float orbitSpeedMax Field Value Type Description System.Single orbitSpeedMin Declaration public float orbitSpeedMin Field Value Type Description System.Single outerRadius Declaration public float outerRadius Field Value Type Description System.Single rotationSpeedMax Declaration public float rotationSpeedMax Field Value Type Description System.Single rotationSpeedMin Declaration public float rotationSpeedMin Field Value Type Description System.Single userMaterialFromParent Declaration public bool userMaterialFromParent Field Value Type Description System.Boolean"
+  },
+  "api/Global.AsteroidSettings.html": {
+    "href": "api/Global.AsteroidSettings.html",
+    "title": "Class AsteroidSettings | Universe Explorer Unity documentation",
+    "keywords": "Class AsteroidSettings Inheritance System.Object AsteroidSettings Namespace : Global Assembly : cs.temp.dll.dll Syntax public class AsteroidSettings : ScriptableObject Fields _angularDrag Declaration public float _angularDrag Field Value Type Description System.Single _drag Declaration public float _drag Field Value Type Description System.Single _mass Declaration public float _mass Field Value Type Description System.Single hugeAsteroidSizeMax Declaration public float hugeAsteroidSizeMax Field Value Type Description System.Single hugeAsteroidSizeMin Declaration public float hugeAsteroidSizeMin Field Value Type Description System.Single hugeSizedAsteroids Declaration public int hugeSizedAsteroids Field Value Type Description System.Int32 normalAsteroidSizeMax Declaration public float normalAsteroidSizeMax Field Value Type Description System.Single normalAsteroidSizeMin Declaration public float normalAsteroidSizeMin Field Value Type Description System.Single normalSizedAsteroids Declaration public int normalSizedAsteroids Field Value Type Description System.Int32 rotationSpeedMax Declaration public float rotationSpeedMax Field Value Type Description System.Single rotationSpeedMin Declaration public float rotationSpeedMin Field Value Type Description System.Single thrustMax Declaration public float thrustMax Field Value Type Description System.Single thrustMin Declaration public float thrustMin Field Value Type Description System.Single"
+  },
+  "api/Global.AtmosphereController.html": {
+    "href": "api/Global.AtmosphereController.html",
+    "title": "Class AtmosphereController | Universe Explorer Unity documentation",
+    "keywords": "Class AtmosphereController Inheritance System.Object AtmosphereController Namespace : Global Assembly : cs.temp.dll.dll Syntax public class AtmosphereController : MonoBehaviour"
+  },
+  "api/Global.AutoRotate.html": {
+    "href": "api/Global.AutoRotate.html",
+    "title": "Class AutoRotate | Universe Explorer Unity documentation",
+    "keywords": "Class AutoRotate Inheritance System.Object AutoRotate Namespace : Global Assembly : cs.temp.dll.dll Syntax public class AutoRotate : MonoBehaviour"
+  },
+  "api/Global.BaseMenu.html": {
+    "href": "api/Global.BaseMenu.html",
+    "title": "Class BaseMenu | Universe Explorer Unity documentation",
+    "keywords": "Class BaseMenu Inheritance System.Object BaseMenu GameStateManager MenuManagerScript Namespace : Global Assembly : cs.temp.dll.dll Syntax public class BaseMenu : MonoBehaviour Properties RegisterInput Declaration public bool RegisterInput { get; set; } Property Value Type Description System.Boolean Methods Exit() Declaration public virtual void Exit() OpenSettings(Boolean) Declaration public virtual void OpenSettings(bool active) Parameters Type Name Description System.Boolean active RestoreMenu() Declaration public virtual void RestoreMenu()"
+  },
+  "api/Global.BlasterBehavior.html": {
+    "href": "api/Global.BlasterBehavior.html",
+    "title": "Class BlasterBehavior | Universe Explorer Unity documentation",
+    "keywords": "Class BlasterBehavior Inheritance System.Object BlasterBehavior Namespace : Global Assembly : cs.temp.dll.dll Syntax public class BlasterBehavior : MonoBehaviour Methods SetUp(Single, Target, Single) Sets the Initial Direction of the Missle Declaration public void SetUp(float damage, Target art, float speed) Parameters Type Name Description System.Single damage Target art System.Single speed"
+  },
+  "api/Global.BodyPlaceholder.html": {
+    "href": "api/Global.BodyPlaceholder.html",
+    "title": "Class BodyPlaceholder | Universe Explorer Unity documentation",
+    "keywords": "Class BodyPlaceholder Inheritance System.Object BodyPlaceholder Namespace : Global Assembly : cs.temp.dll.dll Syntax public class BodyPlaceholder : MonoBehaviour Fields Material Declaration public Material Material Field Value Type Description Material TerrainResolution Declaration public int TerrainResolution Field Value Type Description System.Int32 UseBodySettings Declaration public bool UseBodySettings Field Value Type Description System.Boolean"
+  },
+  "api/Global.CelestialBody.BodyType.html": {
+    "href": "api/Global.CelestialBody.BodyType.html",
+    "title": "Enum CelestialBody.BodyType | Universe Explorer Unity documentation",
+    "keywords": "Enum CelestialBody.BodyType Namespace : Global Assembly : cs.temp.dll.dll Syntax public enum BodyType Fields Name Description Asteroid Moon Planet Sun"
+  },
+  "api/Global.CelestialBody.html": {
+    "href": "api/Global.CelestialBody.html",
+    "title": "Class CelestialBody | Universe Explorer Unity documentation",
+    "keywords": "Class CelestialBody Inheritance System.Object CelestialBody Namespace : Global Assembly : cs.temp.dll.dll Syntax public class CelestialBody : MonoBehaviour Fields Body Declaration public CelestialBody.BodyType Body Field Value Type Description CelestialBody.BodyType BodyName Declaration public string BodyName Field Value Type Description System.String InitialVelocity Declaration public Vector3 InitialVelocity Field Value Type Description Vector3 Radius Declaration public float Radius Field Value Type Description System.Single SurfaceGravity Declaration public float SurfaceGravity Field Value Type Description System.Single Properties Mass Declaration public float Mass { get; } Property Value Type Description System.Single Position Position of the Rigidbody Declaration public Vector3 Position { get; } Property Value Type Description Vector3 Rigidbody Declaration public Rigidbody Rigidbody { get; } Property Value Type Description Rigidbody Velocity Declaration public Vector3 Velocity { get; } Property Value Type Description Vector3 Methods UpdatePosition(Single) Updates the local position Declaration public void UpdatePosition(float scalar) Parameters Type Name Description System.Single scalar UpdateVelocity(Vector3) updates the local velocity by the acceleration Declaration public void UpdateVelocity(Vector3 acceleration) Parameters Type Name Description Vector3 acceleration"
+  },
+  "api/Global.CombatControllerEnemy.html": {
+    "href": "api/Global.CombatControllerEnemy.html",
+    "title": "Class CombatControllerEnemy | Universe Explorer Unity documentation",
+    "keywords": "Class CombatControllerEnemy Inheritance System.Object AbstractCombatController CombatControllerEnemy Inherited Members AbstractCombatController._Health AbstractCombatController._CannShoot AbstractCombatController._MaxHealth AbstractCombatController._MaxShootDistance AbstractCombatController._Ammo AbstractCombatController._Damage AbstractCombatController.TakeDamage(Single) AbstractCombatController.GetHealth(Single) AbstractCombatController.SetMaxHealth(Single) Namespace : Global Assembly : cs.temp.dll.dll Syntax public class CombatControllerEnemy : AbstractCombatController Methods Die() Declaration public override void Die() Overrides AbstractCombatController.Die() HealthChanged() Declaration public override void HealthChanged() Overrides AbstractCombatController.HealthChanged() Unload() Declaration public void Unload()"
+  },
+  "api/Global.CombatControllerPlayer.html": {
+    "href": "api/Global.CombatControllerPlayer.html",
+    "title": "Class CombatControllerPlayer | Universe Explorer Unity documentation",
+    "keywords": "Class CombatControllerPlayer Inheritance System.Object AbstractCombatController CombatControllerPlayer Inherited Members AbstractCombatController._Health AbstractCombatController._CannShoot AbstractCombatController._MaxHealth AbstractCombatController._MaxShootDistance AbstractCombatController._Ammo AbstractCombatController._Damage AbstractCombatController.TakeDamage(Single) AbstractCombatController.GetHealth(Single) AbstractCombatController.SetMaxHealth(Single) Namespace : Global Assembly : cs.temp.dll.dll Syntax public class CombatControllerPlayer : AbstractCombatController Fields _LaserMaxLength Declaration public float _LaserMaxLength Field Value Type Description System.Single _LaserWidth Declaration public float _LaserWidth Field Value Type Description System.Single _LineRenderer Declaration public LineRenderer _LineRenderer Field Value Type Description LineRenderer WeaponController Declaration public WeaponController WeaponController Field Value Type Description WeaponController Methods Die() Declaration public override void Die() Overrides AbstractCombatController.Die() HealthChanged() Declaration public override void HealthChanged() Overrides AbstractCombatController.HealthChanged()"
+  },
+  "api/Global.DeathScreenManager.html": {
+    "href": "api/Global.DeathScreenManager.html",
+    "title": "Class DeathScreenManager | Universe Explorer Unity documentation",
+    "keywords": "Class DeathScreenManager Inheritance System.Object DeathScreenManager Namespace : Global Assembly : cs.temp.dll.dll Syntax public class DeathScreenManager : MonoBehaviour Methods enableDeathScreen() Declaration public void enableDeathScreen() LoadMainMenuScene() Declaration public void LoadMainMenuScene()"
+  },
+  "api/Global.EnemyBehaviour.html": {
+    "href": "api/Global.EnemyBehaviour.html",
+    "title": "Class EnemyBehaviour | Universe Explorer Unity documentation",
+    "keywords": "Class EnemyBehaviour Inheritance System.Object EnemyBehaviour Namespace : Global Assembly : cs.temp.dll.dll Syntax public class EnemyBehaviour : MonoBehaviour Fields values Declaration public EnemyScriptableObject values Field Value Type Description EnemyScriptableObject Methods checkPlayerVicinity() Declaration public bool checkPlayerVicinity() Returns Type Description System.Boolean"
+  },
+  "api/Global.GameStateManager.html": {
+    "href": "api/Global.GameStateManager.html",
+    "title": "Class GameStateManager | Universe Explorer Unity documentation",
+    "keywords": "Class GameStateManager Inheritance System.Object BaseMenu GameStateManager Inherited Members BaseMenu.RegisterInput BaseMenu.OpenSettings(Boolean) BaseMenu.RestoreMenu() BaseMenu.Exit() Namespace : Global Assembly : cs.temp.dll.dll Syntax public class GameStateManager : BaseMenu Methods OpenMenu(Boolean) Declaration public void OpenMenu(bool active) Parameters Type Name Description System.Boolean active ReloadScene() Declaration public void ReloadScene()"
+  },
+  "api/Global.GravityObject.html": {
+    "href": "api/Global.GravityObject.html",
+    "title": "Class GravityObject | Universe Explorer Unity documentation",
+    "keywords": "Class GravityObject Inheritance System.Object GravityObject Namespace : Global Assembly : cs.temp.dll.dll Syntax public class GravityObject : MonoBehaviour"
+  },
+  "api/Global.HealthBarScript.html": {
+    "href": "api/Global.HealthBarScript.html",
+    "title": "Class HealthBarScript | Universe Explorer Unity documentation",
+    "keywords": "Class HealthBarScript Inheritance System.Object HealthBarScript Namespace : Global Assembly : cs.temp.dll.dll Syntax public class HealthBarScript : MonoBehaviour Methods TakeDamage(Single) Declaration public void TakeDamage(float damage) Parameters Type Name Description System.Single damage TakeDamageTemporary(Single) Declaration public void TakeDamageTemporary(float newHealthValue) Parameters Type Name Description System.Single newHealthValue"
+  },
+  "api/Global.html": {
+    "href": "api/Global.html",
+    "title": "Namespace Global | Universe Explorer Unity documentation",
+    "keywords": "Namespace Global Classes AbstractCombatController AsteroidBehaviour AsteroidField AsteroidFieldEditor AsteroidRing AsteroidSettings AtmosphereController AutoRotate BaseMenu BlasterBehavior BodyPlaceholder CelestialBody CombatControllerEnemy CombatControllerPlayer DeathScreenManager EnemyBehaviour GameStateManager GravityObject HealthBarScript IcoSphereGenerator IcoSphereGenerator.Edge IcoSphereGenerator.FixedSizeList<T> InfoCircleScript Inventory InventoryController InventoryMenuManager Inventory Menu Manager, not used any more. Item ItemAssets ItemRankEntry Represents Items Properties required for individual level Item Property: mineral, Mana, Medkit, Health ItemWorld ItemWorldSpawner Provides the ability to easily spawn items inside Game World, so there is no need to manuelly set item's positions LaserWeapon LevelRankTable Provides Level Data lookup utilities LevelSystem This level System should be encapsulated into game Object that implements Monobehaviour. To enable the game object reacting to experience changes, subscribe to the OnExperienceChanged event. To enable the game object reacting to level changes, subscribe to the OnLevelChanged event. LevelSystemController LookAtCamera Enforce 2D Game Object to look at the main camera all the time which makes it feel like a 3D Game Object MainCamera MenuManagerScript MeteorSpawner Attach to a camera MeteorSpawnerField MeteorSpawnerFieldCreator MinimapBehaviour MouseUIEvents MusicManager NBodySimulation PlanetaryRotatorForEntities PlayerRankEntry Represents Player's Properties for individual level Player's Properties: MaxVelocity, BoostDuration RocketBehaivor RocketLauncherWeapon RotateEverything RotateScript SelectionBarIconManager SelectionBarManager SettingsManager SpaceshipControls SpeedDisplay TabGroup Represents a Tab Group to navigate through the Inventory Item Group, not used any more. TabGroupButton Represents a single Button with TabGroup, not used any more. TerrainGenerator Ui_inventory Ui_level Universe Weapon WeaponController Enums CelestialBody.BodyType Item.ItemType Target WeaponType"
+  },
+  "api/Global.IcoSphereGenerator.Edge.html": {
+    "href": "api/Global.IcoSphereGenerator.Edge.html",
+    "title": "Class IcoSphereGenerator.Edge | Universe Explorer Unity documentation",
+    "keywords": "Class IcoSphereGenerator.Edge Inheritance System.Object IcoSphereGenerator.Edge Namespace : Global Assembly : cs.temp.dll.dll Syntax public class Edge Constructors Edge(Int32[]) Declaration public Edge(int[] vertexIndices) Parameters Type Name Description System.Int32 [] vertexIndices Fields vertexIndices Declaration public int[] vertexIndices Field Value Type Description System.Int32 []"
+  },
+  "api/Global.IcoSphereGenerator.FixedSizeList-1.html": {
+    "href": "api/Global.IcoSphereGenerator.FixedSizeList-1.html",
+    "title": "Class IcoSphereGenerator.FixedSizeList<T> | Universe Explorer Unity documentation",
+    "keywords": "Class IcoSphereGenerator.FixedSizeList<T> Inheritance System.Object IcoSphereGenerator.FixedSizeList<T> Namespace : Global Assembly : cs.temp.dll.dll Syntax public class FixedSizeList<T> Type Parameters Name Description T Constructors FixedSizeList(Int32) Declaration public FixedSizeList(int size) Parameters Type Name Description System.Int32 size Fields items Declaration public T[] items Field Value Type Description T[] nextIndex Declaration public int nextIndex Field Value Type Description System.Int32 Methods Add(T) Declaration public void Add(T item) Parameters Type Name Description T item AddRange(IEnumerable<T>) Declaration public void AddRange(IEnumerable<T> items) Parameters Type Name Description System.Collections.Generic.IEnumerable <T> items"
+  },
+  "api/Global.IcoSphereGenerator.html": {
+    "href": "api/Global.IcoSphereGenerator.html",
+    "title": "Class IcoSphereGenerator | Universe Explorer Unity documentation",
+    "keywords": "Class IcoSphereGenerator Inheritance System.Object IcoSphereGenerator Namespace : Global Assembly : cs.temp.dll.dll Syntax public class IcoSphereGenerator Properties Triangles Declaration public int[] Triangles { get; } Property Value Type Description System.Int32 [] Vertices Declaration public Vector3[] Vertices { get; } Property Value Type Description Vector3 [] Methods Generate(Int32) Declaration public void Generate(int resolution) Parameters Type Name Description System.Int32 resolution"
+  },
+  "api/Global.InfoCircleScript.html": {
+    "href": "api/Global.InfoCircleScript.html",
+    "title": "Class InfoCircleScript | Universe Explorer Unity documentation",
+    "keywords": "Class InfoCircleScript Inheritance System.Object InfoCircleScript Namespace : Global Assembly : cs.temp.dll.dll Syntax public class InfoCircleScript : MonoBehaviour Methods Increase(Single) Declaration public void Increase(float value) Parameters Type Name Description System.Single value Reduce(Single) Declaration public void Reduce(float value) Parameters Type Name Description System.Single value SetCurrentValue(Single) Declaration public void SetCurrentValue(float currentValue) Parameters Type Name Description System.Single currentValue SetMaxValue(Single) Declaration public void SetMaxValue(float maxValue) Parameters Type Name Description System.Single maxValue"
+  },
+  "api/Global.Inventory.html": {
+    "href": "api/Global.Inventory.html",
+    "title": "Class Inventory | Universe Explorer Unity documentation",
+    "keywords": "Class Inventory Inheritance System.Object Inventory Namespace : Global Assembly : cs.temp.dll.dll Syntax public class Inventory Constructors Inventory() Declaration public Inventory() Methods AddItem(Item) Adds item to the item list Declaration public void AddItem(Item item) Parameters Type Name Description Item item GetItemList() Returns the item list Declaration public List<Item> GetItemList() Returns Type Description System.Collections.Generic.List < Item > GetTotalItemsCount() Calculates the total number of items based on the amount of each item and returns it Declaration public int GetTotalItemsCount() Returns Type Description System.Int32 RemoveItem(Item) Removes item from the item list Declaration public void RemoveItem(Item item) Parameters Type Name Description Item item Events OnItemAdded Declaration public event EventHandler OnItemAdded Event Type Type Description EventHandler OnItemRemoved Declaration public event EventHandler OnItemRemoved Event Type Type Description EventHandler"
+  },
+  "api/Global.InventoryController.html": {
+    "href": "api/Global.InventoryController.html",
+    "title": "Class InventoryController | Universe Explorer Unity documentation",
+    "keywords": "Class InventoryController Inheritance System.Object InventoryController Namespace : Global Assembly : cs.temp.dll.dll Syntax public class InventoryController : MonoBehaviour Methods GetInventory() Returns the Inventory System attacted to the game object Declaration public Inventory GetInventory() Returns Type Description Inventory"
+  },
+  "api/Global.InventoryMenuManager.html": {
+    "href": "api/Global.InventoryMenuManager.html",
+    "title": "Class InventoryMenuManager | Universe Explorer Unity documentation",
+    "keywords": "Class InventoryMenuManager Inventory Menu Manager, not used any more. Inheritance System.Object InventoryMenuManager Namespace : Global Assembly : cs.temp.dll.dll Syntax public class InventoryMenuManager : MonoBehaviour Fields menu Declaration public GameObject menu Field Value Type Description GameObject Methods Restart() Declaration public void Restart() Resume() Declaration public void Resume()"
+  },
+  "api/Global.Item.html": {
+    "href": "api/Global.Item.html",
+    "title": "Class Item | Universe Explorer Unity documentation",
+    "keywords": "Class Item Inheritance System.Object Item Namespace : Global Assembly : cs.temp.dll.dll Syntax public class Item Fields amount Declaration public int amount Field Value Type Description System.Int32 itemType Declaration public Item.ItemType itemType Field Value Type Description Item.ItemType Methods GetSprite() Returns the associated Sprite of the individual Item Type Declaration public Sprite GetSprite() Returns Type Description Sprite GetTitle() Returns Type of this Item Declaration public string GetTitle() Returns Type Description System.String"
+  },
+  "api/Global.Item.ItemType.html": {
+    "href": "api/Global.Item.ItemType.html",
+    "title": "Enum Item.ItemType | Universe Explorer Unity documentation",
+    "keywords": "Enum Item.ItemType Namespace : Global Assembly : cs.temp.dll.dll Syntax public enum ItemType Fields Name Description Health Mana Medkit Mineral"
+  },
+  "api/Global.ItemAssets.html": {
+    "href": "api/Global.ItemAssets.html",
+    "title": "Class ItemAssets | Universe Explorer Unity documentation",
+    "keywords": "Class ItemAssets Inheritance System.Object ItemAssets Namespace : Global Assembly : cs.temp.dll.dll Syntax public class ItemAssets : MonoBehaviour Fields healthPotionSprite Declaration public Sprite healthPotionSprite Field Value Type Description Sprite manaPotionSprite Declaration public Sprite manaPotionSprite Field Value Type Description Sprite medkitSprite Declaration public Sprite medkitSprite Field Value Type Description Sprite mineralSprite Declaration public Sprite mineralSprite Field Value Type Description Sprite pfItemWorld Declaration public Transform pfItemWorld Field Value Type Description Transform Properties Instance Declaration public static ItemAssets Instance { get; } Property Value Type Description ItemAssets"
+  },
+  "api/Global.ItemRankEntry.html": {
+    "href": "api/Global.ItemRankEntry.html",
+    "title": "Class ItemRankEntry | Universe Explorer Unity documentation",
+    "keywords": "Class ItemRankEntry Represents Items Properties required for individual level Item Property: mineral, Mana, Medkit, Health Inheritance System.Object ItemRankEntry Namespace : Global Assembly : cs.temp.dll.dll Syntax public class ItemRankEntry : IComparable<ItemRankEntry> Properties HealthRequired Declaration public int HealthRequired { get; set; } Property Value Type Description System.Int32 ManaRequired Declaration public int ManaRequired { get; set; } Property Value Type Description System.Int32 MedkitRequired Declaration public int MedkitRequired { get; set; } Property Value Type Description System.Int32 MineralRequired Declaration public int MineralRequired { get; set; } Property Value Type Description System.Int32 Methods CompareTo(ItemRankEntry) Compares RankEntry Objects Declaration public int CompareTo(ItemRankEntry other) Parameters Type Name Description ItemRankEntry other Returns Type Description System.Int32 ToString() Declaration public override string ToString() Returns Type Description System.String"
+  },
+  "api/Global.ItemWorld.html": {
+    "href": "api/Global.ItemWorld.html",
+    "title": "Class ItemWorld | Universe Explorer Unity documentation",
+    "keywords": "Class ItemWorld Inheritance System.Object ItemWorld Namespace : Global Assembly : cs.temp.dll.dll Syntax public class ItemWorld : MonoBehaviour Methods DestroySelf() Destroys this ItemWorld Declaration public void DestroySelf() DropItem(Vector3, Item) Detaches the associated Item of the Item World and respawns the Item in the game world Declaration public static ItemWorld DropItem(Vector3 dropPosition, Item item) Parameters Type Name Description Vector3 dropPosition Item item Returns Type Description ItemWorld GetItem() Returns the associated Item with this ItemWorld Declaration public Item GetItem() Returns Type Description Item SetItem(Item) Sets the Item of this Item World Declaration public void SetItem(Item item) Parameters Type Name Description Item item SpawnItemWorld(Vector3, Item) Spawns a Item World and sets its Item Declaration public static ItemWorld SpawnItemWorld(Vector3 position, Item item) Parameters Type Name Description Vector3 position Item item Returns Type Description ItemWorld"
+  },
+  "api/Global.ItemWorldSpawner.html": {
+    "href": "api/Global.ItemWorldSpawner.html",
+    "title": "Class ItemWorldSpawner | Universe Explorer Unity documentation",
+    "keywords": "Class ItemWorldSpawner Provides the ability to easily spawn items inside Game World, so there is no need to manuelly set item's positions Inheritance System.Object ItemWorldSpawner Namespace : Global Assembly : cs.temp.dll.dll Syntax public class ItemWorldSpawner : MonoBehaviour Fields item Declaration public Item item Field Value Type Description Item"
+  },
+  "api/Global.LaserWeapon.html": {
+    "href": "api/Global.LaserWeapon.html",
+    "title": "Class LaserWeapon | Universe Explorer Unity documentation",
+    "keywords": "Class LaserWeapon Inheritance System.Object Weapon LaserWeapon Inherited Members Weapon.Target Weapon.MaxAmmo Weapon.CurrentAmmo Weapon.WeaponType Weapon.Name Weapon._maxAmmo Weapon._hasAmmo Weapon._canShoot Weapon._weaponType Weapon._projectileSpeed Weapon._projectile Weapon._damage Weapon.FireRate Weapon.SocketLeft Weapon.SocketRight Weapon.Start() Weapon.Fire() Weapon.NextFire Weapon.Reload() Namespace : Global Assembly : cs.temp.dll.dll Syntax public class LaserWeapon : Weapon Methods FireProjectile() Declaration protected override void FireProjectile() Overrides Weapon.FireProjectile()"
+  },
+  "api/Global.LevelRankTable.html": {
+    "href": "api/Global.LevelRankTable.html",
+    "title": "Class LevelRankTable | Universe Explorer Unity documentation",
+    "keywords": "Class LevelRankTable Provides Level Data lookup utilities Inheritance System.Object LevelRankTable Namespace : Global Assembly : cs.temp.dll.dll Syntax public class LevelRankTable Methods GetItemLevelRankList() Returns the Item Level Rank List for all levels Declaration public static List<ItemRankEntry> GetItemLevelRankList() Returns Type Description System.Collections.Generic.List < ItemRankEntry > GetItemLevelTable() Returns the Item Level Rank for all levels, starting from the Level 1 Declaration public static Dictionary<int, ItemRankEntry> GetItemLevelTable() Returns Type Description System.Collections.Generic.Dictionary < System.Int32 , ItemRankEntry > GetPlayerLevelTable() Returns the Player Level Rank for all levels, starting from the Level 1 Declaration public static Dictionary<int, PlayerRankEntry> GetPlayerLevelTable() Returns Type Description System.Collections.Generic.Dictionary < System.Int32 , PlayerRankEntry >"
+  },
+  "api/Global.LevelSystem.html": {
+    "href": "api/Global.LevelSystem.html",
+    "title": "Class LevelSystem | Universe Explorer Unity documentation",
+    "keywords": "Class LevelSystem This level System should be encapsulated into game Object that implements Monobehaviour. To enable the game object reacting to experience changes, subscribe to the OnExperienceChanged event. To enable the game object reacting to level changes, subscribe to the OnLevelChanged event. Inheritance System.Object LevelSystem Namespace : Global Assembly : cs.temp.dll.dll Syntax public class LevelSystem Constructors LevelSystem() Declaration public LevelSystem() Methods GetCurrentItemLevelRank() Returns Item Properties associated with the current level Declaration public ItemRankEntry GetCurrentItemLevelRank() Returns Type Description ItemRankEntry GetCurrentPlayerLevelRank() Returns Player Properties associated with the current level Declaration public PlayerRankEntry GetCurrentPlayerLevelRank() Returns Type Description PlayerRankEntry GetHealthLevelValue() Returns the total amount of the health Items from the Inventory System Declaration public int GetHealthLevelValue() Returns Type Description System.Int32 GetLevelNumber() Returns the current level number Declaration public int GetLevelNumber() Returns Type Description System.Int32 GetManaLevelValue() Returns the total amount of the mana Items from the Inventory System Declaration public int GetManaLevelValue() Returns Type Description System.Int32 GetMedkitLevelValue() Returns the total amount of the medkit Items from the Inventory System Declaration public int GetMedkitLevelValue() Returns Type Description System.Int32 GetMineralLevelValue() Returns the total amount of the mineral Items from the Inventory System Declaration public int GetMineralLevelValue() Returns Type Description System.Int32 SetInventory(Inventory) Sets Inventory which acts as a Item Repository for this level system Declaration public void SetInventory(Inventory inventory) Parameters Type Name Description Inventory inventory Events OnExperienceChanged Declaration public event EventHandler OnExperienceChanged Event Type Type Description EventHandler OnLevelChanged Declaration public event EventHandler OnLevelChanged Event Type Type Description EventHandler"
+  },
+  "api/Global.LevelSystemController.html": {
+    "href": "api/Global.LevelSystemController.html",
+    "title": "Class LevelSystemController | Universe Explorer Unity documentation",
+    "keywords": "Class LevelSystemController Inheritance System.Object LevelSystemController Namespace : Global Assembly : cs.temp.dll.dll Syntax public class LevelSystemController : MonoBehaviour"
+  },
+  "api/Global.LookAtCamera.html": {
+    "href": "api/Global.LookAtCamera.html",
+    "title": "Class LookAtCamera | Universe Explorer Unity documentation",
+    "keywords": "Class LookAtCamera Enforce 2D Game Object to look at the main camera all the time which makes it feel like a 3D Game Object Inheritance System.Object LookAtCamera Namespace : Global Assembly : cs.temp.dll.dll Syntax public class LookAtCamera : MonoBehaviour"
+  },
+  "api/Global.MainCamera.html": {
+    "href": "api/Global.MainCamera.html",
+    "title": "Class MainCamera | Universe Explorer Unity documentation",
+    "keywords": "Class MainCamera Inheritance System.Object MainCamera Namespace : Global Assembly : cs.temp.dll.dll Syntax public class MainCamera : MonoBehaviour Fields offsetX Declaration public float offsetX Field Value Type Description System.Single offsetZ Declaration public float offsetZ Field Value Type Description System.Single rotationOffsetX Declaration public float rotationOffsetX Field Value Type Description System.Single spaceShip Declaration public Transform spaceShip Field Value Type Description Transform"
+  },
+  "api/Global.MenuManagerScript.html": {
+    "href": "api/Global.MenuManagerScript.html",
+    "title": "Class MenuManagerScript | Universe Explorer Unity documentation",
+    "keywords": "Class MenuManagerScript Inheritance System.Object BaseMenu MenuManagerScript Inherited Members BaseMenu.RegisterInput BaseMenu.OpenSettings(Boolean) BaseMenu.RestoreMenu() BaseMenu.Exit() Namespace : Global Assembly : cs.temp.dll.dll Syntax public class MenuManagerScript : BaseMenu Methods LoadGameScene() Declaration public void LoadGameScene()"
+  },
+  "api/Global.MeteorSpawner.html": {
+    "href": "api/Global.MeteorSpawner.html",
+    "title": "Class MeteorSpawner | Universe Explorer Unity documentation",
+    "keywords": "Class MeteorSpawner Attach to a camera Inheritance System.Object MeteorSpawner Namespace : Global Assembly : cs.temp.dll.dll Syntax public class MeteorSpawner : MonoBehaviour Properties Density Declaration public int Density { get; } Property Value Type Description System.Int32"
+  },
+  "api/Global.MeteorSpawnerField.html": {
+    "href": "api/Global.MeteorSpawnerField.html",
+    "title": "Class MeteorSpawnerField | Universe Explorer Unity documentation",
+    "keywords": "Class MeteorSpawnerField Inheritance System.Object MeteorSpawnerField Namespace : Global Assembly : cs.temp.dll.dll Syntax public class MeteorSpawnerField : MonoBehaviour Fields AsteroidSettings Declaration public AsteroidSettings AsteroidSettings Field Value Type Description AsteroidSettings SettingsFoldout Declaration public bool SettingsFoldout Field Value Type Description System.Boolean Properties ColliderSize Declaration public float ColliderSize { get; } Property Value Type Description System.Single Methods CreateCollider() Declaration public void CreateCollider() RandomPointInBounds(Bounds) Declaration public static Vector3 RandomPointInBounds(Bounds bounds) Parameters Type Name Description Bounds bounds Returns Type Description Vector3 SpawnCollectables() Declaration public void SpawnCollectables() SpawnEnemies() Declaration public void SpawnEnemies() SpawnMeteors() Declaration public void SpawnMeteors() Start() Declaration public void Start()"
+  },
+  "api/Global.MeteorSpawnerFieldCreator.html": {
+    "href": "api/Global.MeteorSpawnerFieldCreator.html",
+    "title": "Class MeteorSpawnerFieldCreator | Universe Explorer Unity documentation",
+    "keywords": "Class MeteorSpawnerFieldCreator Inheritance System.Object MeteorSpawnerFieldCreator Namespace : Global Assembly : cs.temp.dll.dll Syntax public class MeteorSpawnerFieldCreator : MonoBehaviour Fields Meteors Declaration public Transform[] Meteors Field Value Type Description Transform [] MeteorSpawnerField Declaration public Transform MeteorSpawnerField Field Value Type Description Transform parent Declaration public Transform parent Field Value Type Description Transform Properties Instance Declaration public static MeteorSpawnerFieldCreator Instance { get; } Property Value Type Description MeteorSpawnerFieldCreator Methods Awake() Declaration public void Awake()"
+  },
+  "api/Global.MinimapBehaviour.html": {
+    "href": "api/Global.MinimapBehaviour.html",
+    "title": "Class MinimapBehaviour | Universe Explorer Unity documentation",
+    "keywords": "Class MinimapBehaviour Inheritance System.Object MinimapBehaviour Namespace : Global Assembly : cs.temp.dll.dll Syntax public class MinimapBehaviour : MonoBehaviour Fields playerMapMarker Declaration public Sprite playerMapMarker Field Value Type Description Sprite spaceShip Declaration public Transform spaceShip Field Value Type Description Transform Methods getCameraHeight() Declaration public float getCameraHeight() Returns Type Description System.Single setCameraHeight(Single) Declaration public void setCameraHeight(float newCameraHeight) Parameters Type Name Description System.Single newCameraHeight"
+  },
+  "api/Global.MouseUIEvents.html": {
+    "href": "api/Global.MouseUIEvents.html",
+    "title": "Class MouseUIEvents | Universe Explorer Unity documentation",
+    "keywords": "Class MouseUIEvents Inheritance System.Object MouseUIEvents Implements IPointerClickHandler IPointerEnterHandler IPointerExitHandler Namespace : Global Assembly : cs.temp.dll.dll Syntax public class MouseUIEvents : MonoBehaviour, IPointerClickHandler, IPointerEnterHandler, IPointerExitHandler Fields MouseEnterHandler Declaration public Action MouseEnterHandler Field Value Type Description Action MouseExitHandler Declaration public Action MouseExitHandler Field Value Type Description Action RightClickHandler Declaration public Action RightClickHandler Field Value Type Description Action Methods OnPointerClick(PointerEventData) Detects Mouse Click Events Declaration public void OnPointerClick(PointerEventData eventData) Parameters Type Name Description PointerEventData eventData OnPointerEnter(PointerEventData) Detects Mouse Enter Events Declaration public void OnPointerEnter(PointerEventData eventData) Parameters Type Name Description PointerEventData eventData OnPointerExit(PointerEventData) Detects Mouse Exit Events Declaration public void OnPointerExit(PointerEventData eventData) Parameters Type Name Description PointerEventData eventData Implements IPointerClickHandler IPointerEnterHandler IPointerExitHandler"
+  },
+  "api/Global.MusicManager.html": {
+    "href": "api/Global.MusicManager.html",
+    "title": "Class MusicManager | Universe Explorer Unity documentation",
+    "keywords": "Class MusicManager Inheritance System.Object MusicManager Namespace : Global Assembly : cs.temp.dll.dll Syntax public class MusicManager : MonoBehaviour Fields AudioClips Declaration public AudioClip[] AudioClips Field Value Type Description AudioClip [] AudioSource Declaration public AudioSource AudioSource Field Value Type Description AudioSource PickRandom Declaration public bool PickRandom Field Value Type Description System.Boolean"
+  },
+  "api/Global.NBodySimulation.html": {
+    "href": "api/Global.NBodySimulation.html",
+    "title": "Class NBodySimulation | Universe Explorer Unity documentation",
+    "keywords": "Class NBodySimulation Inheritance System.Object NBodySimulation Namespace : Global Assembly : cs.temp.dll.dll Syntax public class NBodySimulation : MonoBehaviour Fields SpeedReduction Declaration public float SpeedReduction Field Value Type Description System.Single Properties Bodies Declaration public static CelestialBody[] Bodies { get; } Property Value Type Description CelestialBody []"
+  },
+  "api/Global.PlanetaryRotatorForEntities.html": {
+    "href": "api/Global.PlanetaryRotatorForEntities.html",
+    "title": "Class PlanetaryRotatorForEntities | Universe Explorer Unity documentation",
+    "keywords": "Class PlanetaryRotatorForEntities Inheritance System.Object PlanetaryRotatorForEntities Namespace : Global Assembly : cs.temp.dll.dll Syntax public class PlanetaryRotatorForEntities : MonoBehaviour Fields _ShipSpeed Declaration public float _ShipSpeed Field Value Type Description System.Single ship Declaration public Transform ship Field Value Type Description Transform"
+  },
+  "api/Global.PlayerRankEntry.html": {
+    "href": "api/Global.PlayerRankEntry.html",
+    "title": "Class PlayerRankEntry | Universe Explorer Unity documentation",
+    "keywords": "Class PlayerRankEntry Represents Player's Properties for individual level Player's Properties: MaxVelocity, BoostDuration Inheritance System.Object PlayerRankEntry Namespace : Global Assembly : cs.temp.dll.dll Syntax public class PlayerRankEntry Properties BoostDuration Declaration public int BoostDuration { get; set; } Property Value Type Description System.Int32 DamageFactor Declaration public float DamageFactor { get; set; } Property Value Type Description System.Single MaxVelocity Declaration public float MaxVelocity { get; set; } Property Value Type Description System.Single Methods ToString() Declaration public override string ToString() Returns Type Description System.String Overrides System.Object.ToString()"
+  },
+  "api/Global.RocketBehaivor.html": {
+    "href": "api/Global.RocketBehaivor.html",
+    "title": "Class RocketBehaivor | Universe Explorer Unity documentation",
+    "keywords": "Class RocketBehaivor Inheritance System.Object RocketBehaivor Namespace : Global Assembly : cs.temp.dll.dll Syntax public class RocketBehaivor : MonoBehaviour Methods SetUp(Single, Target) Sets the Initial Direction of the Missle Declaration public void SetUp(float damage, Target art) Parameters Type Name Description System.Single damage Target art"
+  },
+  "api/Global.RocketLauncherWeapon.html": {
+    "href": "api/Global.RocketLauncherWeapon.html",
+    "title": "Class RocketLauncherWeapon | Universe Explorer Unity documentation",
+    "keywords": "Class RocketLauncherWeapon Inheritance System.Object Weapon RocketLauncherWeapon Inherited Members Weapon.Target Weapon.MaxAmmo Weapon.CurrentAmmo Weapon.WeaponType Weapon.Name Weapon._maxAmmo Weapon._hasAmmo Weapon._canShoot Weapon._weaponType Weapon._projectileSpeed Weapon._projectile Weapon._damage Weapon.FireRate Weapon.SocketLeft Weapon.SocketRight Weapon.Start() Weapon.Fire() Weapon.NextFire Weapon.Reload() Namespace : Global Assembly : cs.temp.dll.dll Syntax public class RocketLauncherWeapon : Weapon Methods FireProjectile() Declaration protected override void FireProjectile() Overrides Weapon.FireProjectile()"
+  },
+  "api/Global.RotateEverything.html": {
+    "href": "api/Global.RotateEverything.html",
+    "title": "Class RotateEverything | Universe Explorer Unity documentation",
+    "keywords": "Class RotateEverything Inheritance System.Object RotateEverything Namespace : Global Assembly : cs.temp.dll.dll Syntax public class RotateEverything : MonoBehaviour Fields _Gravit_Rotation Declaration public float _Gravit_Rotation Field Value Type Description System.Single _Rotation Declaration public float _Rotation Field Value Type Description System.Single _ShipSpeed Declaration public float _ShipSpeed Field Value Type Description System.Single ship Declaration public Transform ship Field Value Type Description Transform ship2 Declaration public Transform ship2 Field Value Type Description Transform sun Declaration public Transform sun Field Value Type Description Transform"
+  },
+  "api/Global.RotateScript.html": {
+    "href": "api/Global.RotateScript.html",
+    "title": "Class RotateScript | Universe Explorer Unity documentation",
+    "keywords": "Class RotateScript Inheritance System.Object RotateScript Namespace : Global Assembly : cs.temp.dll.dll Syntax public class RotateScript : MonoBehaviour"
+  },
+  "api/Global.SelectionBarIconManager.html": {
+    "href": "api/Global.SelectionBarIconManager.html",
+    "title": "Class SelectionBarIconManager | Universe Explorer Unity documentation",
+    "keywords": "Class SelectionBarIconManager Inheritance System.Object SelectionBarIconManager Namespace : Global Assembly : cs.temp.dll.dll Syntax public class SelectionBarIconManager : MonoBehaviour Properties Key Declaration public KeyCode Key { get; set; } Property Value Type Description KeyCode Name Declaration public string Name { get; set; } Property Value Type Description System.String Selected Declaration public bool Selected { get; set; } Property Value Type Description System.Boolean Methods SetWeapon(Weapon) Declaration public void SetWeapon(Weapon w) Parameters Type Name Description Weapon w"
+  },
+  "api/Global.SelectionBarManager.html": {
+    "href": "api/Global.SelectionBarManager.html",
+    "title": "Class SelectionBarManager | Universe Explorer Unity documentation",
+    "keywords": "Class SelectionBarManager Inheritance System.Object SelectionBarManager Namespace : Global Assembly : cs.temp.dll.dll Syntax public class SelectionBarManager : MonoBehaviour"
+  },
+  "api/Global.SettingsManager.html": {
+    "href": "api/Global.SettingsManager.html",
+    "title": "Class SettingsManager | Universe Explorer Unity documentation",
+    "keywords": "Class SettingsManager Inheritance System.Object SettingsManager Namespace : Global Assembly : cs.temp.dll.dll Syntax public class SettingsManager : MonoBehaviour Methods addSettingsEventListener(UnityAction) Declaration public void addSettingsEventListener(UnityAction unityAction) Parameters Type Name Description UnityAction unityAction Discard() Declaration public void Discard() LoadUI() Declaration public void LoadUI() Save() Declaration public void Save()"
+  },
+  "api/Global.SpaceshipControls.html": {
+    "href": "api/Global.SpaceshipControls.html",
+    "title": "Class SpaceshipControls | Universe Explorer Unity documentation",
+    "keywords": "Class SpaceshipControls Inheritance System.Object SpaceshipControls Namespace : Global Assembly : cs.temp.dll.dll Syntax public class SpaceshipControls : MonoBehaviour, ISpaceshipControls Fields autoDeceleration Declaration public bool autoDeceleration Field Value Type Description System.Boolean enableDrifting Declaration public bool enableDrifting Field Value Type Description System.Boolean useAlternativeMouseInput Declaration public bool useAlternativeMouseInput Field Value Type Description System.Boolean velocity Declaration public float velocity Field Value Type Description System.Single Methods Boost() Boosts spaceship for a defined amount of time. Declaration public void Boost() getBoostMultiplier() Returns the current boost multiplier Declaration public float getBoostMultiplier() Returns Type Description System.Single getCurrentBoostDuration() Returns the current boost duration in frames Declaration public int getCurrentBoostDuration() Returns Type Description System.Int32 getCurrentMovement() Returns current movement as a vector. Declaration public Vector3 getCurrentMovement() Returns Type Description Vector3 getIsRolling() Returns if spaceship is currently rolling Declaration public bool getIsRolling() Returns Type Description System.Boolean getMaxBoostDuration() Returns the maximum boost duration in frames Declaration public int getMaxBoostDuration() Returns Type Description System.Int32 getMaximumVelocity() Returns maximum velocity in Unity units Declaration public float getMaximumVelocity() Returns Type Description System.Single getRollPerFrame() Returns rolling steps per frame Declaration public float getRollPerFrame() Returns Type Description System.Single getShootingDirection() Returns crosshair aiming direction Declaration public Vector3 getShootingDirection() Returns Type Description Vector3 Move(Single) Speed at which the spaceship should accelerate Declaration public void Move(float force) Parameters Type Name Description System.Single force Move(Vector3, Single) Movement direction Speed at which the spaceship should accelerate Declaration public void Move(Vector3 direction, float force) Parameters Type Name Description Vector3 direction System.Single force Roll(Single) Negative amount for left roll, positive amount for right roll Declaration public void Roll(float force) Parameters Type Name Description System.Single force Rotate(Vector2) Location of the mouse on scren Declaration public void Rotate(Vector2 mouseInput) Parameters Type Name Description Vector2 mouseInput setBoostMultiplier(Single) New boost multiplier for the spaceship Declaration public void setBoostMultiplier(float newBoostMultiplier) Parameters Type Name Description System.Single newBoostMultiplier SetCrosshairPosition(Vector2) Places the crosshair relative to mouse position Declaration public void SetCrosshairPosition(Vector2 mouseInput) Parameters Type Name Description Vector2 mouseInput setMaxBoostDuration(Int32) New maximum boost duration for the spaceship in frames Declaration public void setMaxBoostDuration(int newMaxBoostDuration) Parameters Type Name Description System.Int32 newMaxBoostDuration setMaximumVelocity(Single) New maximum velocity for the spaceship in Unity units Declaration public void setMaximumVelocity(float newMaxVelocity) Parameters Type Name Description System.Single newMaxVelocity setRollPerFrame(Single) Sets rolling steps per frame. I Roll = 360 degree Declaration public void setRollPerFrame(float rollPerFrame) Parameters Type Name Description System.Single rollPerFrame"
+  },
+  "api/Global.SpeedDisplay.html": {
+    "href": "api/Global.SpeedDisplay.html",
+    "title": "Class SpeedDisplay | Universe Explorer Unity documentation",
+    "keywords": "Class SpeedDisplay Inheritance System.Object SpeedDisplay Namespace : Global Assembly : cs.temp.dll.dll Syntax public class SpeedDisplay : MonoBehaviour Methods SetNewCurrentSpeed(Single) Declaration public void SetNewCurrentSpeed(float newCurrentSpeed) Parameters Type Name Description System.Single newCurrentSpeed SetNewMaxSpeed(Single) Declaration public void SetNewMaxSpeed(float newMaxSpeed) Parameters Type Name Description System.Single newMaxSpeed"
+  },
+  "api/Global.TabGroup.html": {
+    "href": "api/Global.TabGroup.html",
+    "title": "Class TabGroup | Universe Explorer Unity documentation",
+    "keywords": "Class TabGroup Represents a Tab Group to navigate through the Inventory Item Group, not used any more. Inheritance System.Object TabGroup Namespace : Global Assembly : cs.temp.dll.dll Syntax public class TabGroup : MonoBehaviour Fields objectsToSwap Declaration public List<GameObject> objectsToSwap Field Value Type Description System.Collections.Generic.List < GameObject > tabActive Declaration public Sprite tabActive Field Value Type Description Sprite tabHover Declaration public Sprite tabHover Field Value Type Description Sprite tabIdle Declaration public Sprite tabIdle Field Value Type Description Sprite Methods OnTabEnter(TabGroupButton) Declaration public void OnTabEnter(TabGroupButton button) Parameters Type Name Description TabGroupButton button OnTabExit(TabGroupButton) Declaration public void OnTabExit(TabGroupButton button) Parameters Type Name Description TabGroupButton button OnTabSelected(TabGroupButton) Declaration public void OnTabSelected(TabGroupButton button) Parameters Type Name Description TabGroupButton button ResetTabs() Declaration public void ResetTabs() subscribe(TabGroupButton) Declaration public void subscribe(TabGroupButton button) Parameters Type Name Description TabGroupButton button"
+  },
+  "api/Global.TabGroupButton.html": {
+    "href": "api/Global.TabGroupButton.html",
+    "title": "Class TabGroupButton | Universe Explorer Unity documentation",
+    "keywords": "Class TabGroupButton Represents a single Button with TabGroup, not used any more. Inheritance System.Object TabGroupButton Implements IPointerEnterHandler IPointerExitHandler IPointerClickHandler Namespace : Global Assembly : cs.temp.dll.dll Syntax public class TabGroupButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler Fields background Declaration public Image background Field Value Type Description Image tabGroup Declaration public TabGroup tabGroup Field Value Type Description TabGroup Methods OnPointerClick(PointerEventData) Declaration public void OnPointerClick(PointerEventData eventData) Parameters Type Name Description PointerEventData eventData OnPointerEnter(PointerEventData) Declaration public void OnPointerEnter(PointerEventData eventData) Parameters Type Name Description PointerEventData eventData OnPointerExit(PointerEventData) Declaration public void OnPointerExit(PointerEventData eventData) Parameters Type Name Description PointerEventData eventData Implements IPointerEnterHandler IPointerExitHandler IPointerClickHandler"
+  },
+  "api/Global.Target.html": {
+    "href": "api/Global.Target.html",
+    "title": "Enum Target | Universe Explorer Unity documentation",
+    "keywords": "Enum Target Namespace : Global Assembly : cs.temp.dll.dll Syntax public enum Target Fields Name Description Allied Enemy"
+  },
+  "api/Global.TerrainGenerator.html": {
+    "href": "api/Global.TerrainGenerator.html",
+    "title": "Class TerrainGenerator | Universe Explorer Unity documentation",
+    "keywords": "Class TerrainGenerator Inheritance System.Object TerrainGenerator Namespace : Global Assembly : cs.temp.dll.dll Syntax public class TerrainGenerator : MonoBehaviour Fields material Declaration public Material material Field Value Type Description Material terrainResolution Declaration public int terrainResolution Field Value Type Description System.Int32"
+  },
+  "api/Global.Ui_inventory.html": {
+    "href": "api/Global.Ui_inventory.html",
+    "title": "Class Ui_inventory | Universe Explorer Unity documentation",
+    "keywords": "Class Ui_inventory Inheritance System.Object Ui_inventory Namespace : Global Assembly : cs.temp.dll.dll Syntax public class Ui_inventory : MonoBehaviour Methods SetGameObject(GameObject) Sets the associated Game Object (Space ship) which provides location and other data Declaration public void SetGameObject(GameObject gameObject) Parameters Type Name Description GameObject gameObject SetInventory(Inventory) Sets the associated Inventory System which provides Events utilities and data accessibilities Declaration public void SetInventory(Inventory inventory) Parameters Type Name Description Inventory inventory"
+  },
+  "api/Global.Ui_level.html": {
+    "href": "api/Global.Ui_level.html",
+    "title": "Class Ui_level | Universe Explorer Unity documentation",
+    "keywords": "Class Ui_level Inheritance System.Object Ui_level Namespace : Global Assembly : cs.temp.dll.dll Syntax public class Ui_level : MonoBehaviour Fields healthBar Declaration public Slider healthBar Field Value Type Description Slider healthMaxValue Declaration public TextMeshProUGUI healthMaxValue Field Value Type Description TextMeshProUGUI manaBar Declaration public Slider manaBar Field Value Type Description Slider manaMaxValue Declaration public TextMeshProUGUI manaMaxValue Field Value Type Description TextMeshProUGUI medkitBar Declaration public Slider medkitBar Field Value Type Description Slider medkitMaxValue Declaration public TextMeshProUGUI medkitMaxValue Field Value Type Description TextMeshProUGUI mineralBar Declaration public Slider mineralBar Field Value Type Description Slider mineralMaxValue Declaration public TextMeshProUGUI mineralMaxValue Field Value Type Description TextMeshProUGUI Methods SetLevelSystem(LevelSystem) Sets the associated Level System which provides Events utilities and data accessibilities Declaration public void SetLevelSystem(LevelSystem levelSystem) Parameters Type Name Description LevelSystem levelSystem"
+  },
+  "api/Global.Universe.html": {
+    "href": "api/Global.Universe.html",
+    "title": "Class Universe | Universe Explorer Unity documentation",
+    "keywords": "Class Universe Inheritance System.Object Universe Namespace : Global Assembly : cs.temp.dll.dll Syntax public class Universe Fields CheatsEnabled Declaration public const bool CheatsEnabled = false Field Value Type Description System.Boolean GravitationalConstant Declaration public const float GravitationalConstant = 0.0001F Field Value Type Description System.Single PhysicsTimeStep Declaration public const float PhysicsTimeStep = 0.01F Field Value Type Description System.Single"
+  },
+  "api/Global.Weapon.html": {
+    "href": "api/Global.Weapon.html",
+    "title": "Class Weapon | Universe Explorer Unity documentation",
+    "keywords": "Class Weapon Inheritance System.Object Weapon LaserWeapon RocketLauncherWeapon Namespace : Global Assembly : cs.temp.dll.dll Syntax public abstract class Weapon : MonoBehaviour Fields _canShoot Declaration protected bool _canShoot Field Value Type Description System.Boolean _damage Declaration protected float _damage Field Value Type Description System.Single _hasAmmo Declaration protected bool _hasAmmo Field Value Type Description System.Boolean _maxAmmo Declaration protected int _maxAmmo Field Value Type Description System.Int32 _projectile Declaration protected Transform _projectile Field Value Type Description Transform _projectileSpeed Declaration protected float _projectileSpeed Field Value Type Description System.Single _weaponType Declaration protected WeaponType _weaponType Field Value Type Description WeaponType SocketLeft Position to spawn the Rocket at Declaration public Transform SocketLeft Field Value Type Description Transform SocketRight Declaration public Transform SocketRight Field Value Type Description Transform Target Declaration public Target Target Field Value Type Description Target Properties CurrentAmmo Declaration public int CurrentAmmo { get; protected set; } Property Value Type Description System.Int32 FireRate Declaration public float FireRate { get; } Property Value Type Description System.Single MaxAmmo Declaration public int MaxAmmo { get; protected set; } Property Value Type Description System.Int32 Name Declaration public string Name { get; } Property Value Type Description System.String NextFire Declaration public float NextFire { get; } Property Value Type Description System.Single WeaponType Declaration public WeaponType WeaponType { get; protected set; } Property Value Type Description WeaponType Methods Fire() Declaration public void Fire() FireProjectile() Declaration protected abstract void FireProjectile() Reload() Declaration public void Reload() Start() Declaration public void Start()"
+  },
+  "api/Global.WeaponController.html": {
+    "href": "api/Global.WeaponController.html",
+    "title": "Class WeaponController | Universe Explorer Unity documentation",
+    "keywords": "Class WeaponController Inheritance System.Object WeaponController Namespace : Global Assembly : cs.temp.dll.dll Syntax public class WeaponController : MonoBehaviour Fields Weapons Declaration public Weapon[] Weapons Field Value Type Description Weapon [] Properties ActiveWeaponIndex Declaration public int ActiveWeaponIndex { get; } Property Value Type Description System.Int32 DamageMultiplier Declaration public float DamageMultiplier { get; set; } Property Value Type Description System.Single Methods FireActiveWeapon() Declaration public void FireActiveWeapon() SwitchWeapon() Declaration public void SwitchWeapon() SwitchWeapon(Int32) Declaration public bool SwitchWeapon(int newWeaponIndex) Parameters Type Name Description System.Int32 newWeaponIndex Returns Type Description System.Boolean"
+  },
+  "api/Global.WeaponType.html": {
+    "href": "api/Global.WeaponType.html",
+    "title": "Enum WeaponType | Universe Explorer Unity documentation",
+    "keywords": "Enum WeaponType Namespace : Global Assembly : cs.temp.dll.dll Syntax public enum WeaponType Fields Name Description LASER ROCKET"
+  },
+  "manual/coniunctis.html": {
+    "href": "manual/coniunctis.html",
+    "title": "Coniunctis nec qui et lanient monticolae vitae | Universe Explorer Unity documentation",
+    "keywords": "Coniunctis nec qui et lanient monticolae vitae Opem ille Lorem markdownum cavis exululat inutile. Illi quem caeli, vola patruo difficili Iuppiter Patraeque, est ardebant ingeniis Troica intus Amore tibi mirantem superfusis, multum. Ut Achilles Et sitim Tibi modo ait temptant crinita daret Pariter in removi offensasque Lenaeo damno terra Phoebes ut damnosa classis ignes templo; tua ulla capillos ultima. Videre percusso plectro templa fuit diva minimum debere, quid nomen Philomela animis. Verbis istis flagrat vulnera inpediique ignes. Gravi filo obvius arte Amphionis Panes emisitque iubet. Latona te timens Latentia ante, eundem meritorum sunto ! Elige in timuit templa ferrea, qui arma ligati stagnum turbant. Fraternaque aeternus, dedisse, naufragus corripiens ranas Amathunta et quod laetior culpa nec semper scorpius fuit vicem corpora ardere. Fallit in artus primordia, fratres per aliis , ipsi manu Asiae quod marmorea . mountain(googleVga, pngIphone); var radcabBitrate = dnsCronRecursion; gui(2); ipImageAix += vle(drm_cisc, horizontal + computer_key); jre(vaporware_adc_multi); Lumina ut tamen praesentia vidistis nymphae auroque Bromumque in portant furorem. Visa init resurgere praevitiat canibus et, dedignata turea, ilia. Pisenore mensura insula aere nec per o gladium causa: Alcidae. Veris sentes pallet, alta melius nostra amborum probant, deam. Iuventae dedimus nitidaque hunc traxisse sermonibus pectine flecti an pateres, hac ore gelidis foret semper. Sithon pelle. Bracchia Hippason videntur fateri hosti: palpitat animo est reliquit anne nam confusaque. Interea rex altis munera quem quae quoque rorant, rauco albescere scopulo moriensque parvo, pectus illa, quadrupedes. Notavit haec. Vertit pars quem Euryte casu usta iterum! Ablatum pectus corripiunt neu humus tamquam; ducens stellarum amore. Pulsisque latet, ad tamen victor fulva Tirynthius posco; qui inque in poena quidem enses !"
+  },
+  "manual/etiam.html": {
+    "href": "manual/etiam.html",
+    "title": "Etiam nantemque exul | Universe Explorer Unity documentation",
+    "keywords": "Etiam nantemque exul Cum tulit Lorem markdownum quos stimulosque altos . Putat nubes molle Troiae vero dea; nostraque plurima . Vos de mihi, credidit: salibus et iacuit, volvitur sunt unda fronti deriguisse refert . Sumpsisse viso Nubila nomine. Purpura se o et causa parva ripas, adsonat saevaque; quid modo ambo et venere voveo. Sine et esse, illa tempore, sive tibi roseo, ministerio altos. Trepident medicamine, primasque cum et peregit dapibusque quoslibet hominis quoque insula. Tepentibus ut Cecropios ab turba, est auro ferventi aliter duratos feres differtis Ausoniis potes, non noctis Laertaque iuvenes. Caelumque vestigia Et promissa fila sentiet leges; Phrygiae et levatus ferire? Salutifer coniugis fierent ante fecissent post vultumque ultima, per radios currere; tandem. Fuerat qua, ne foedera reformatus nunc diu dea audet nonne. Ut utinam mitia tenuerunt movent spectans Mavortis nulla ite, somnos exsiccata dixit Aeetias. Binas Trinacriam album ex ipse. Quoque una utraque tardius placetque gerere; mariti sed dare ludunt memorante Delphice corpora. Caret quantum intellegat venis gaudent eurus. Et suos crista; has et ferarum quid audit omine; mea cum praemia quae duris, suspicor. Adflati qui Spiro conata supprimit diemque; ora oblitus ensem alti non quo lacrimis ferunt, ageret Cebrenida rutilis delendaque? Terras lata modus: nec fas, misi utque adpositis Iunonis. Fide vidit, ferox Schoeneia mundi, voce, tellus pariterque pedum, sic Celadon securior corpora partesque posito. Potest faxo unda pendulaque ille rostro, haesit pars: formidine captat, viseret simulaverat! Sequi est peragit flumineae pallent simulatas formae avulsa, imagine undis; formam. Et nec sed adeunt, huic aequa et ignes nec, medere terram. Move ipsum abnuat retemptat retinebat duabus diu Iovi est pluma. Tecum non deducit Pelops Inachus: arcet aliquemque, regia telo. Tollens altore nec semel qui voce Palatinae Apertis et dei duo inquit ; luna secundo, fervida terret. In haec dextra septima Tydides tibi: congelat hospes nativum radice tegumenque membris Hesperio ne Libys, est vocabula siqua. Dumque stet mulces , ut fontem dea atricolor, est pronos, clarissimus poterat cum intrare sidere templi. cut_metadata(whitelistSequenceUnit.thick.of_bezel_cdma( address_suffix_troubleshooting), sram_trojan(4, hdmi_network - 1)); flash.apache -= web_gps_plug; if (offline.dac_bridge(scrollEbookRom, parameter.internal_target_superscalar(2)) < qwerty + 2 - ipvCgiContextual) { certificateIdeAsp = overclocking + app; supplyCard = siteRaster; } Sagitta curvum quoque petisti opibusque proximitas in, illa vestrum, mihi domum nescia flexit sacra in. Magni vive sim crescente causam saxo voluit, mens, quod. Tela ter ulterius similis illos nato refugit ait verbaque nec fatigatum penates iaculatricemque cecidit pinnas, cum. Misso contigit caelo dedissent lumina; nympha ad vobis occidat, malo sacra utrumque cunctos Diomedeos addita. Virgineus autumnos, ait mitissima curru: fuit sed fessi se habebat hactenus Ultor; meus."
+  }
+}
