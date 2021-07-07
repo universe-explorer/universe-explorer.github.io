@@ -18,7 +18,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.AbstractCombatController.html",
-          "hash": "RzM5W6QeH++DSmjrZK7QmOpwYW+8V+kRolanwdXEtTk="
+          "hash": "XqCZSUsVbDaTmWXlVl1HNIDgT8FPiTO4Zd9Cgg4eJvE="
         }
       },
       "is_incremental": false,
@@ -98,23 +98,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Global.AutoRotate.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Global.AutoRotate.html",
-          "hash": "NYYlbnxMuS7adt2gj826k01RvJ4+o/1Vy85jeO1O7GY="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/Global.BaseMenu.yml",
       "output": {
         ".html": {
           "relative_path": "api/Global.BaseMenu.html",
-          "hash": "2auOh3kVIo7WgO0fBBVsksfXNegzdxX/JvzBBi9nfOM="
+          "hash": "wjiq5T32Fr42ogOWJp/gdK/1O6fFKN+Z5CKEo2GrEsc="
         }
       },
       "is_incremental": false,
@@ -126,19 +114,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.BlasterBehavior.html",
-          "hash": "7xOnDZmG6rgM4UuVBtjt68yp3fRy3h5/PCwNHe3yw6Q="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Global.BodyPlaceholder.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Global.BodyPlaceholder.html",
-          "hash": "SWPlghRPg7ZsUnMKtnZ64r5LVARF7kUK18dlAgSfvPI="
+          "hash": "KqjCOLPaOogsOZ7XGUh1lgG400PT+jAbFs9rop379YE="
         }
       },
       "is_incremental": false,
@@ -162,7 +138,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.CelestialBody.html",
-          "hash": "CvKS6QxWGAxuopK8xJ6g2mX5M4sBE9TfhZsuAhP3J54="
+          "hash": "aENXJx7sc6f7uSqRToc9vrJ5v2KlkIBJgC+qYZyrFoM="
         }
       },
       "is_incremental": false,
@@ -174,7 +150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.CombatControllerEnemy.html",
-          "hash": "mFVtkDgLkJ0q3Tefw8k6h0uOCFcBO5ngCUJSZ35jatM="
+          "hash": "v8FQ57B7VtOhjJQwJd51uYE3NKbQj/c4lu6E2tKFvFk="
         }
       },
       "is_incremental": false,
@@ -186,7 +162,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.CombatControllerPlayer.html",
-          "hash": "6BI/pO+YWjBpCw/+ex5oYKsI52oey/mWCOCwtXl+vi4="
+          "hash": "TmRwMDblfPh8mWyO5DBj5EBni8xAda+JXgION+EXFcI="
         }
       },
       "is_incremental": false,
@@ -198,7 +174,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.DeathScreenManager.html",
-          "hash": "eQwiNfcpACnjLOuwGoMEqhhlvLwkGfwilA/1kXZkbxY="
+          "hash": "rhHnXB8ykZeOEjTW2LYpsbGOKT5f7OvRRj4Y1jCtcFA="
         }
       },
       "is_incremental": false,
@@ -210,31 +186,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.EnemyBehaviour.html",
-          "hash": "l6m0gBlBLg3Ivb3aXwv81ue2aftQflrVbsRxVkpca1Y="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Global.GameStateManager.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Global.GameStateManager.html",
-          "hash": "tKEXV1ampD9jhYuKij1szdBnEQxwg44bSIig0d7xrNE="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Global.GravityObject.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Global.GravityObject.html",
-          "hash": "ojsxZUYNK7VAptaPINFSj5jlq6Uh87w8iI8X+rKipqI="
+          "hash": "StmRsfIlTCA3v7dXM7ui9g8CeifLAxsvOLymYV/edvU="
         }
       },
       "is_incremental": false,
@@ -246,43 +198,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.HealthBarScript.html",
-          "hash": "q1s4snkHU9onfdx0F6v12/Y3z/ng7Xjxbq13tMMa6w0="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Global.IcoSphereGenerator.Edge.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Global.IcoSphereGenerator.Edge.html",
-          "hash": "+tqAvirEx5TuJ/snCUQ1UmI1NUrrMMI/peNdIcDRp9A="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Global.IcoSphereGenerator.FixedSizeList-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Global.IcoSphereGenerator.FixedSizeList-1.html",
-          "hash": "3C6PmbFel/JWFLnZigy+eRbsREK6hXUpowyWMGOmbA0="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Global.IcoSphereGenerator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Global.IcoSphereGenerator.html",
-          "hash": "ujOgbYKlSuIIIgQBz2zMp1gIdwuw6lmKOx/EVeU1Vy0="
+          "hash": "so+wN5MF9pTo1dDHqJiClBCaFf1xv62HcvaxvlKijYY="
         }
       },
       "is_incremental": false,
@@ -294,7 +210,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.InfoCircleScript.html",
-          "hash": "uRbn5NX2VdK2n54pMBdNGh9hez6Sn2Fo7N21t/b63o0="
+          "hash": "DOIDJ7Mo85EfbQhbW9WoHR8Q3g9DOdYgzdwtZCDM4lg="
         }
       },
       "is_incremental": false,
@@ -306,7 +222,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.Inventory.html",
-          "hash": "F34cDsxdsUXtliyRhbKY8dfZhy22yHsVQ28wXeQhISE="
+          "hash": "Yl+Pyesm2bvmaUZk1swhQTiCcrcjqIq2/ngLmNA+aFs="
         }
       },
       "is_incremental": false,
@@ -318,7 +234,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.InventoryController.html",
-          "hash": "XI9qO02bjGCzWz+T2AoQjzf1WJCG7DFQrHKXcZ2Cqr0="
+          "hash": "qo2oyD1Wag5FouwpcdBQZk1F0yV1tUlRWdBjmu+I/lg="
         }
       },
       "is_incremental": false,
@@ -330,7 +246,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.InventoryMenuManager.html",
-          "hash": "IC5LQpzhUjk/vo6akt6tz6eJMuYMjrVPIg7cT1HLm3c="
+          "hash": "4s0LOj0EcKvBAhgWRvBLGktfAsJxLfM/UKdY9B7PL2I="
         }
       },
       "is_incremental": false,
@@ -342,7 +258,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.Item.ItemType.html",
-          "hash": "IOZg3m4Pyj7kJuAqYS9uLUMdG0W69t+qVybekCKTZRE="
+          "hash": "bmJK7q05PnkfAbPXSffbwnMfO/IRoQfOXRBcL95E8Og="
         }
       },
       "is_incremental": false,
@@ -354,7 +270,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.Item.html",
-          "hash": "zV1l83f6RTu6XFyRcVI8B6kd9ll204tQqyCUUMt5IKA="
+          "hash": "Gg2p/0b0PUdOvD8Sw9F7fTp4dRwZDvfN5rZF5wadL/0="
         }
       },
       "is_incremental": false,
@@ -366,7 +282,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.ItemAssets.html",
-          "hash": "NiYe5SX45VXI6Im2xXx9QeneRGgbIZQsLxxzNNgsAdc="
+          "hash": "rizTHiL0VnFdzm43BkVjht9EGReE7pyaDye7jWxH60w="
         }
       },
       "is_incremental": false,
@@ -378,7 +294,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.ItemRankEntry.html",
-          "hash": "ENj558vAgVUA/lLUsXtIURmLvpp3iifHeQWw1ffx0FI="
+          "hash": "68SK+nayV9tQYbhra78l/c5ZPvKr4AZt2flmIclDO4E="
         }
       },
       "is_incremental": false,
@@ -390,7 +306,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.ItemWorld.html",
-          "hash": "zltbJ3jZ3NVOeFVV0cKHyzaUnroW1Z9o5DP90fy04jY="
+          "hash": "4t0Kyf3RhaF4odnzjXQy5rJoPLEsTlhLjYOiWDSSpV0="
         }
       },
       "is_incremental": false,
@@ -414,7 +330,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.LaserWeapon.html",
-          "hash": "Kk9NHVMY90ACJlcdIQrIgLiB9xGYVQ8m4JbwDhIc5Aw="
+          "hash": "3sKnr9t4V/L0nleoEH4HSRLsNyn2U/HhAeIhD8+nD30="
         }
       },
       "is_incremental": false,
@@ -438,7 +354,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.LevelSystem.html",
-          "hash": "whCiAI9IY4Ms5ax3LK5Bsyo7bEbaUIUxoO/trYBxU04="
+          "hash": "C5yMG0j+YkK4+DN65Ij3N7jEbCh0YKU0hz9sr33wDZ8="
         }
       },
       "is_incremental": false,
@@ -450,7 +366,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.LevelSystemController.html",
-          "hash": "HDNKyBwbAaSoUvt0Rp/lJKsK7KN4mdBw2uGQcIMkS/A="
+          "hash": "sKEYQkw+UG1mWFrO0P+hkUsQRn4D6kBtY7jtxzkeWtw="
         }
       },
       "is_incremental": false,
@@ -482,11 +398,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Global.MenuManagerScript.yml",
+      "source_relative_path": "api/Global.MainMenuManager.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Global.MenuManagerScript.html",
-          "hash": "n9RH7CbISQ6S6bNpWIpQ9Us3KtI+Pclo4Hz2CfbdIUw="
+          "relative_path": "api/Global.MainMenuManager.html",
+          "hash": "RkIbkdx3doiQrpIUcMMUEf+aWmwV6BjvPUvLujFXYfU="
         }
       },
       "is_incremental": false,
@@ -510,7 +426,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.MeteorSpawnerField.html",
-          "hash": "7xjwJm33+++HFY+bLQiEEOo3fYTY9ufo31dzxUaJb8Y="
+          "hash": "Dnid0L1gtEfgyeaj5IN+PACwMxupubR7ZOSyZq3O1qg="
         }
       },
       "is_incremental": false,
@@ -522,7 +438,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.MeteorSpawnerFieldCreator.html",
-          "hash": "Uo4LNjWKs8/71Y8QUT86QXNC6Uy2rJGsdQr+TWThInU="
+          "hash": "zp/ToS6JZYyH5K1Y3KoXJjzZg4zZxyQuA92mbiCZ+xU="
         }
       },
       "is_incremental": false,
@@ -534,7 +450,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.MinimapBehaviour.html",
-          "hash": "OPyehlNR4kVc+3TPYkJikBM5oThpbab0UPZBI5/6ptk="
+          "hash": "AlavTxS2c6pxJU+R3TJ99aQUdDh532skn8UXQrOhXW8="
         }
       },
       "is_incremental": false,
@@ -546,7 +462,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.MouseUIEvents.html",
-          "hash": "mxrOXSCS+njlTzr/zsvUy/eismCOZgkYDDyTEVTldfM="
+          "hash": "87jXbEZRmXmNyfarUwGE9vkFb6/uM9rgP92rEW2A5PA="
         }
       },
       "is_incremental": false,
@@ -570,7 +486,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.NBodySimulation.html",
-          "hash": "0RugApZKN3qpKlGlw/Jga3J12xmavuN1XU6SaeGgwb4="
+          "hash": "uvwK+wkHHZYU5rl7pS6GQOExf40UihWjCo4VlB4ahPo="
         }
       },
       "is_incremental": false,
@@ -578,11 +494,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Global.PlanetaryRotatorForEntities.yml",
+      "source_relative_path": "api/Global.PauseMenuManager.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Global.PlanetaryRotatorForEntities.html",
-          "hash": "PYiuwMBWjL7zIX4lVqOWT5qjdeqA0SiRwbdqs48rIKs="
+          "relative_path": "api/Global.PauseMenuManager.html",
+          "hash": "ycXwDodrD+QZH9KVt+rDrxsNeV1P9TF5KAI/ow1uF3A="
         }
       },
       "is_incremental": false,
@@ -594,7 +510,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.PlayerRankEntry.html",
-          "hash": "2KmmMvvkTmhieZYZgoodlAV5zqmGo4G0nAzpxtjztTE="
+          "hash": "jwPZBHVBmpEsy6PTEWToPorHYn3nU6yBxe2noD2KZ1M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.PostProcessingManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.PostProcessingManager.html",
+          "hash": "uziq3MvlsBn0QFGKJJfBpy9gWMbLyRMndEPCzfHqxmQ="
         }
       },
       "is_incremental": false,
@@ -606,7 +534,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.RocketBehaivor.html",
-          "hash": "jZOhfWBdkP+XgPsRxwvz9FT7+BW/MuXOjuvGRCN4NHk="
+          "hash": "YgDXaFqtjzz8oiaejQTO7GVzbGd0SDsJOf+mBBoay04="
         }
       },
       "is_incremental": false,
@@ -618,31 +546,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.RocketLauncherWeapon.html",
-          "hash": "R+skA+7x8udCKSu7C2eRS+xqktGVrgsyA7eUGPHsnyI="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Global.RotateEverything.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Global.RotateEverything.html",
-          "hash": "UDP4q0zkkq/j6HtqjxI7BT4LTYw7a+WUD085Lxw68DM="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Global.RotateScript.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Global.RotateScript.html",
-          "hash": "IsvAqAcchgNc3omx71T61qH/7Ym+YHLdWj85IQ2XG8s="
+          "hash": "v7V3ZoPwGjOUdNAHHo2p9OrEAzMJCCm1ojLY4zi6l0c="
         }
       },
       "is_incremental": false,
@@ -654,7 +558,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.SelectionBarIconManager.html",
-          "hash": "nIiDOoU55CfMoxke45SWLcs8e+nuwpYpSdSxjorimtA="
+          "hash": "lD7Zj3cfgE1I+ksPeGBIiUHACrOY5PkLMKzJDzBanbA="
         }
       },
       "is_incremental": false,
@@ -666,7 +570,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.SelectionBarManager.html",
-          "hash": "GIYW4FCWDBUhzycX9fBmaW9oEc10bVHNA0iBUfSm/5Q="
+          "hash": "YvlquZDlm2Rgzx5vlae5T60gXLBAD3D2b6vTxA7czf0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Global.SerialCommunicationTestScript.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Global.SerialCommunicationTestScript.html",
+          "hash": "t6Akay3u46MT6/CC9NQMwIzFOj0wacRHeDd8Dfq8AwA="
         }
       },
       "is_incremental": false,
@@ -678,7 +594,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.SettingsManager.html",
-          "hash": "qd4TwZujamjxYGO4kxVuXBaL/Rs+C74zKo+cnduRkTI="
+          "hash": "KPmVo/OcjaRk83lfPzCeIMDaS17HIWvkKzs57YSgptQ="
         }
       },
       "is_incremental": false,
@@ -690,7 +606,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.SpaceshipControls.html",
-          "hash": "ViCwj9RK0RYI04ruWVBYEF72rFxdcBFxOnMfd/efBT0="
+          "hash": "Tg3kVRFEELKYdropAyDcdPZNNfDVVUQ7TDeSFAJlax4="
         }
       },
       "is_incremental": false,
@@ -702,7 +618,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.SpeedDisplay.html",
-          "hash": "TC5fPounoq8YHSWOZpZE5B+mGu89PquttunLZvl0GxE="
+          "hash": "QAG/SukG71PG6I2cN+HY37GKPzDF7OKeRWhg+HH4J+s="
         }
       },
       "is_incremental": false,
@@ -714,7 +630,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.TabGroup.html",
-          "hash": "QGnU7bhZBtuJVcDeJBdGqImD+IdoSLeugniTjFuQ6a8="
+          "hash": "WxLtCkk0RBbVXohaVEnWJp2FfPX1IgxWebIhqgSma9o="
         }
       },
       "is_incremental": false,
@@ -726,7 +642,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.TabGroupButton.html",
-          "hash": "UtVxUqXOxBHoYlPVbktbLFhLiJjuS98/PxMl8gW7c58="
+          "hash": "aRGWNMtwNJSVKYVvIPIJx6/AYNYrCpEtksgAvJYv3YU="
         }
       },
       "is_incremental": false,
@@ -738,19 +654,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.Target.html",
-          "hash": "lWn5qlE8cosF1pzgxuC0Ph8tMahBAXDM71/w89nd7HU="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Global.TerrainGenerator.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Global.TerrainGenerator.html",
-          "hash": "LZeURFkEhvQNmTpJauHXPsqa+aOgtylslKQ67VxNqrY="
+          "hash": "7+EDSpscxV5ejKBsihCMl9z6isJWq8nqV0zi+iq5jsg="
         }
       },
       "is_incremental": false,
@@ -762,7 +666,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.Ui_inventory.html",
-          "hash": "QgV/cDKpLRtd4LSwFfe+3CN4ujYQnZdX7oz3xxbpy+A="
+          "hash": "5yFD4thPaOBve7AxjpF+GHqAO8gftce4vIocrjaVMNU="
         }
       },
       "is_incremental": false,
@@ -774,7 +678,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.Ui_level.html",
-          "hash": "qCT3R983va5WP2oQAe7ATbDcmWTlCW4YvPHwld7cTl8="
+          "hash": "UySWIrze0fxjRF4JsDu8Bp57DYlctt3ZBSAjVCop5ag="
         }
       },
       "is_incremental": false,
@@ -786,7 +690,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.Universe.html",
-          "hash": "48CkoD3Hwhm4698KoWjitrqpGPPK+g0WS/CDHudfMNU="
+          "hash": "V9Ti4EQVo3P679gEBsuNkfqbIKgIPaeDby6/COZD0go="
         }
       },
       "is_incremental": false,
@@ -798,7 +702,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.Weapon.html",
-          "hash": "6z0dvn55SloH0wkkl3LsTY5ZBuMKhS8wDumXmS366vc="
+          "hash": "zrnAWvkOD0d7fIpWkPl92/fpL/5M85ALv85Rprrh8LA="
         }
       },
       "is_incremental": false,
@@ -810,7 +714,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.WeaponController.html",
-          "hash": "5GTjcLGciA7RLfSjSTqN8rBYaPxHpL9jEnq/rxDyf4k="
+          "hash": "ug3+0yq+S8FrDCgXQBwdBFbjTuoz6CF4J/pfH9aFjY8="
         }
       },
       "is_incremental": false,
@@ -822,7 +726,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.WeaponType.html",
-          "hash": "s65HdSI0DjZ8s6Rz40W1nqeOcmNEz1QIK6EPR7a9XiM="
+          "hash": "BBU3WKmQBHubEKpXgIGRSmMBK2lTl6z/NVCY56OutJg="
         }
       },
       "is_incremental": false,
@@ -834,7 +738,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Global.html",
-          "hash": "JywjkvxWcJyq2oJR1t1edIgXME+4NQuag55UtGl6dCA="
+          "hash": "0JtNRpj1Pxhchnz474drNMzGixNji/Xhh3GNv2VAM30="
         }
       },
       "is_incremental": false,
@@ -846,7 +750,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "a3pRV2r5bdOZXmLjFfxa5n8C6SSrd9mSuCsMxnWTBuU="
+          "hash": "G2Ew6R74z7RqSdY20YuBwWJTeHFKwYTZBh56zW4Gi6g="
         }
       },
       "is_incremental": false,
@@ -941,7 +845,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 69,
+          "total_file_count": 61,
           "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {

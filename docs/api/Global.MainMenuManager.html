@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class MinimapBehaviour
+    <title>Class MainMenuManager
    | Universe Explorer Unity documentation </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class MinimapBehaviour
+    <meta name="title" content="Class MainMenuManager
    | Universe Explorer Unity documentation ">
     <meta name="generator" content="docfx 2.58.0.0">
     
@@ -78,131 +78,54 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="Global.MinimapBehaviour">
+            <article class="content wrap" id="_content" data-uid="Global.MainMenuManager">
   
   
-  <h1 id="Global_MinimapBehaviour" data-uid="Global.MinimapBehaviour" class="text-break">Class MinimapBehaviour
+  <h1 id="Global_MainMenuManager" data-uid="Global.MainMenuManager" class="text-break">Class MainMenuManager
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Main menu manager</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">MinimapBehaviour</span></div>
+    <div class="level1"><a class="xref" href="Global.BaseMenu.html">BaseMenu</a></div>
+    <div class="level2"><span class="xref">MainMenuManager</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="Global.BaseMenu.html#Global_BaseMenu_RegisterInput">BaseMenu.RegisterInput</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseMenu.html#Global_BaseMenu_OpenSettings">BaseMenu.OpenSettings()</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseMenu.html#Global_BaseMenu_RestoreMenu">BaseMenu.RestoreMenu()</a>
+    </div>
+    <div>
+      <a class="xref" href="Global.BaseMenu.html#Global_BaseMenu_Exit">BaseMenu.Exit()</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="Global.html">Global</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="Global_MinimapBehaviour_syntax">Syntax</h5>
+  <h5 id="Global_MainMenuManager_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class MinimapBehaviour : MonoBehaviour</code></pre>
+    <pre><code class="lang-csharp hljs">public class MainMenuManager : BaseMenu</code></pre>
   </div>
-  <h3 id="fields">Fields
-  </h3>
-  
-  
-  <h4 id="Global_MinimapBehaviour_playerMapMarker" data-uid="Global.MinimapBehaviour.playerMapMarker">playerMapMarker</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Sprite playerMapMarker</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Sprite</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="Global_MinimapBehaviour_spaceShip" data-uid="Global.MinimapBehaviour.spaceShip">spaceShip</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Transform spaceShip</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Transform</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="Global_MinimapBehaviour_getCameraHeight_" data-uid="Global.MinimapBehaviour.getCameraHeight*"></a>
-  <h4 id="Global_MinimapBehaviour_getCameraHeight" data-uid="Global.MinimapBehaviour.getCameraHeight">getCameraHeight()</h4>
-  <div class="markdown level1 summary"><p>Returns the current Y coordinates of the camera</p>
+  <a id="Global_MainMenuManager_LoadGameScene_" data-uid="Global.MainMenuManager.LoadGameScene*"></a>
+  <h4 id="Global_MainMenuManager_LoadGameScene" data-uid="Global.MainMenuManager.LoadGameScene">LoadGameScene()</h4>
+  <div class="markdown level1 summary"><p>Load game scene</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float getCameraHeight()</code></pre>
+    <pre><code class="lang-csharp hljs">public void LoadGameScene()</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Global_MinimapBehaviour_setCameraHeight_" data-uid="Global.MinimapBehaviour.setCameraHeight*"></a>
-  <h4 id="Global_MinimapBehaviour_setCameraHeight_System_Single_" data-uid="Global.MinimapBehaviour.setCameraHeight(System.Single)">setCameraHeight(Single)</h4>
-  <div class="markdown level1 summary"><p>Sets camera height to the specified value
-<param name="newCameraHeight"> New Y coordinates of the camera</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void setCameraHeight(float newCameraHeight)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td><span class="parametername">newCameraHeight</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
 </article>
           </div>
           

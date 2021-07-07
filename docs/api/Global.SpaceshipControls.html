@@ -124,6 +124,30 @@
   </table>
   
   
+  <h4 id="Global_SpaceshipControls_cursorTexture" data-uid="Global.SpaceshipControls.cursorTexture">cursorTexture</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Texture2D cursorTexture</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Texture2D</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="Global_SpaceshipControls_enableDrifting" data-uid="Global.SpaceshipControls.enableDrifting">enableDrifting</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -148,12 +172,12 @@
   </table>
   
   
-  <h4 id="Global_SpaceshipControls_useAlternativeMouseInput" data-uid="Global.SpaceshipControls.useAlternativeMouseInput">useAlternativeMouseInput</h4>
+  <h4 id="Global_SpaceshipControls_useJoystick" data-uid="Global.SpaceshipControls.useJoystick">useJoystick</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool useAlternativeMouseInput</code></pre>
+    <pre><code class="lang-csharp hljs">public bool useJoystick</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -170,37 +194,13 @@
       </tr>
     </tbody>
   </table>
-  
-  
-  <h4 id="Global_SpaceshipControls_velocity" data-uid="Global.SpaceshipControls.velocity">velocity</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float velocity</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Single</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="methods">Methods
   </h3>
   
   
   <a id="Global_SpaceshipControls_Boost_" data-uid="Global.SpaceshipControls.Boost*"></a>
   <h4 id="Global_SpaceshipControls_Boost" data-uid="Global.SpaceshipControls.Boost">Boost()</h4>
-  <div class="markdown level1 summary"><p>Boosts spaceship for a defined amount of time.</p>
+  <div class="markdown level1 summary"><p>Boosts spaceship as long as this method is called.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -289,7 +289,7 @@
   
   <a id="Global_SpaceshipControls_getIsRolling_" data-uid="Global.SpaceshipControls.getIsRolling*"></a>
   <h4 id="Global_SpaceshipControls_getIsRolling" data-uid="Global.SpaceshipControls.getIsRolling">getIsRolling()</h4>
-  <div class="markdown level1 summary"><p>Returns if spaceship is currently rolling</p>
+  <div class="markdown level1 summary"><p>Returns whether spaceship is currently rolling</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -367,7 +367,7 @@
   
   <a id="Global_SpaceshipControls_getRollPerFrame_" data-uid="Global.SpaceshipControls.getRollPerFrame*"></a>
   <h4 id="Global_SpaceshipControls_getRollPerFrame" data-uid="Global.SpaceshipControls.getRollPerFrame">getRollPerFrame()</h4>
-  <div class="markdown level1 summary"><param> Returns rolling steps per frame
+  <div class="markdown level1 summary"><p>Returns rolling steps per frame</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -391,35 +391,9 @@
   </table>
   
   
-  <a id="Global_SpaceshipControls_getShootingDirection_" data-uid="Global.SpaceshipControls.getShootingDirection*"></a>
-  <h4 id="Global_SpaceshipControls_getShootingDirection" data-uid="Global.SpaceshipControls.getShootingDirection">getShootingDirection()</h4>
-  <div class="markdown level1 summary"><param> Returns crosshair aiming direction
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vector3 getShootingDirection()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector3</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="Global_SpaceshipControls_Move_" data-uid="Global.SpaceshipControls.Move*"></a>
   <h4 id="Global_SpaceshipControls_Move_System_Single_" data-uid="Global.SpaceshipControls.Move(System.Single)">Move(Single)</h4>
-  <div class="markdown level1 summary"><param name="force"> Speed at which the spaceship should accelerate
+  <div class="markdown level1 summary"><p>Applies force to move the spaceship forward</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -439,7 +413,8 @@
       <tr>
         <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">force</span></td>
-        <td></td>
+        <td><p>Speed at which the spaceship should accelerate</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -447,8 +422,7 @@
   
   <a id="Global_SpaceshipControls_Move_" data-uid="Global.SpaceshipControls.Move*"></a>
   <h4 id="Global_SpaceshipControls_Move_Vector3_System_Single_" data-uid="Global.SpaceshipControls.Move(Vector3,System.Single)">Move(Vector3, Single)</h4>
-  <div class="markdown level1 summary"><param name="direction"> Movement direction
-<param name="force"> Speed at which the spaceship should accelerate
+  <div class="markdown level1 summary"><p>Applies force to the spaceship in the specified direction</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -468,12 +442,14 @@
       <tr>
         <td><span class="xref">Vector3</span></td>
         <td><span class="parametername">direction</span></td>
-        <td></td>
+        <td><p>Movement direction</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">force</span></td>
-        <td></td>
+        <td><p>Speed at which the spaceship should accelerate</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -481,7 +457,7 @@
   
   <a id="Global_SpaceshipControls_Roll_" data-uid="Global.SpaceshipControls.Roll*"></a>
   <h4 id="Global_SpaceshipControls_Roll_System_Single_" data-uid="Global.SpaceshipControls.Roll(System.Single)">Roll(Single)</h4>
-  <div class="markdown level1 summary"><param name="force"> Negative amount for left roll, positive amount for right roll
+  <div class="markdown level1 summary"><p>Starts a roll with the specified force if a roll is not already in progress</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -501,7 +477,8 @@
       <tr>
         <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">force</span></td>
-        <td></td>
+        <td><p>Negative amount for left roll, positive amount for right roll</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -509,7 +486,7 @@
   
   <a id="Global_SpaceshipControls_Rotate_" data-uid="Global.SpaceshipControls.Rotate*"></a>
   <h4 id="Global_SpaceshipControls_Rotate_Vector2_" data-uid="Global.SpaceshipControls.Rotate(Vector2)">Rotate(Vector2)</h4>
-  <div class="markdown level1 summary"><param name="mouseInput"> Location of the mouse on scren
+  <div class="markdown level1 summary"><p>Rotates the Spaceship according to the location of the mouse</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -529,7 +506,8 @@
       <tr>
         <td><span class="xref">Vector2</span></td>
         <td><span class="parametername">mouseInput</span></td>
-        <td></td>
+        <td><p>Location of the mouse on scren</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -537,7 +515,7 @@
   
   <a id="Global_SpaceshipControls_setBoostMultiplier_" data-uid="Global.SpaceshipControls.setBoostMultiplier*"></a>
   <h4 id="Global_SpaceshipControls_setBoostMultiplier_System_Single_" data-uid="Global.SpaceshipControls.setBoostMultiplier(System.Single)">setBoostMultiplier(Single)</h4>
-  <div class="markdown level1 summary"><param name="newBoostMultiplier"> New boost multiplier for the spaceship
+  <div class="markdown level1 summary"><p>Sets a new boost multiplier</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -557,35 +535,8 @@
       <tr>
         <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">newBoostMultiplier</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="Global_SpaceshipControls_SetCrosshairPosition_" data-uid="Global.SpaceshipControls.SetCrosshairPosition*"></a>
-  <h4 id="Global_SpaceshipControls_SetCrosshairPosition_Vector2_" data-uid="Global.SpaceshipControls.SetCrosshairPosition(Vector2)">SetCrosshairPosition(Vector2)</h4>
-  <div class="markdown level1 summary"><p>Places the crosshair relative to mouse position</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void SetCrosshairPosition(Vector2 mouseInput)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Vector2</span></td>
-        <td><span class="parametername">mouseInput</span></td>
-        <td></td>
+        <td><p>New boost multiplier for the spaceship</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -593,7 +544,7 @@
   
   <a id="Global_SpaceshipControls_setMaxBoostDuration_" data-uid="Global.SpaceshipControls.setMaxBoostDuration*"></a>
   <h4 id="Global_SpaceshipControls_setMaxBoostDuration_System_Int32_" data-uid="Global.SpaceshipControls.setMaxBoostDuration(System.Int32)">setMaxBoostDuration(Int32)</h4>
-  <div class="markdown level1 summary"><param name="newBoostMultiplier"> New maximum boost duration for the spaceship in frames
+  <div class="markdown level1 summary"><p>Sets new maximum boost duration</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -621,7 +572,7 @@
   
   <a id="Global_SpaceshipControls_setMaximumVelocity_" data-uid="Global.SpaceshipControls.setMaximumVelocity*"></a>
   <h4 id="Global_SpaceshipControls_setMaximumVelocity_System_Single_" data-uid="Global.SpaceshipControls.setMaximumVelocity(System.Single)">setMaximumVelocity(Single)</h4>
-  <div class="markdown level1 summary"><param name="newMaxVelocity"> New maximum velocity for the spaceship in Unity units
+  <div class="markdown level1 summary"><p>Sets a new maximum velocity</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -641,7 +592,8 @@
       <tr>
         <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">newMaxVelocity</span></td>
-        <td></td>
+        <td><p>New maximum velocity for the spaceship in Unity units</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -649,7 +601,7 @@
   
   <a id="Global_SpaceshipControls_setRollPerFrame_" data-uid="Global.SpaceshipControls.setRollPerFrame*"></a>
   <h4 id="Global_SpaceshipControls_setRollPerFrame_System_Single_" data-uid="Global.SpaceshipControls.setRollPerFrame(System.Single)">setRollPerFrame(Single)</h4>
-  <div class="markdown level1 summary"><param name="rollPerFrame"> Sets rolling steps per frame. I Roll = 360 degree
+  <div class="markdown level1 summary"><p>Returns degrees of rotation per frame of rolling</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -669,7 +621,8 @@
       <tr>
         <td><span class="xref">System.Single</span></td>
         <td><span class="parametername">rollPerFrame</span></td>
-        <td></td>
+        <td><p>Sets rolling steps per frame. I Roll = 360 degree</p>
+</td>
       </tr>
     </tbody>
   </table>

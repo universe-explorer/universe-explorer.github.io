@@ -475,12 +475,6 @@ references:
   commentId: T:Global.AtmosphereController
   fullName: AtmosphereController
   nameWithType: AtmosphereController
-- uid: Global.AutoRotate
-  name: AutoRotate
-  href: api/Global.AutoRotate.html
-  commentId: T:Global.AutoRotate
-  fullName: AutoRotate
-  nameWithType: AutoRotate
 - uid: Global.BaseMenu
   name: BaseMenu
   href: api/Global.BaseMenu.html
@@ -500,12 +494,12 @@ references:
   isSpec: "True"
   fullName: BaseMenu.Exit
   nameWithType: BaseMenu.Exit
-- uid: Global.BaseMenu.OpenSettings(System.Boolean)
-  name: OpenSettings(Boolean)
-  href: api/Global.BaseMenu.html#Global_BaseMenu_OpenSettings_System_Boolean_
-  commentId: M:Global.BaseMenu.OpenSettings(System.Boolean)
-  fullName: BaseMenu.OpenSettings(System.Boolean)
-  nameWithType: BaseMenu.OpenSettings(Boolean)
+- uid: Global.BaseMenu.OpenSettings
+  name: OpenSettings()
+  href: api/Global.BaseMenu.html#Global_BaseMenu_OpenSettings
+  commentId: M:Global.BaseMenu.OpenSettings
+  fullName: BaseMenu.OpenSettings()
+  nameWithType: BaseMenu.OpenSettings()
 - uid: Global.BaseMenu.OpenSettings*
   name: OpenSettings
   href: api/Global.BaseMenu.html#Global_BaseMenu_OpenSettings_
@@ -558,30 +552,6 @@ references:
   isSpec: "True"
   fullName: BlasterBehavior.SetUp
   nameWithType: BlasterBehavior.SetUp
-- uid: Global.BodyPlaceholder
-  name: BodyPlaceholder
-  href: api/Global.BodyPlaceholder.html
-  commentId: T:Global.BodyPlaceholder
-  fullName: BodyPlaceholder
-  nameWithType: BodyPlaceholder
-- uid: Global.BodyPlaceholder.Material
-  name: Material
-  href: api/Global.BodyPlaceholder.html#Global_BodyPlaceholder_Material
-  commentId: F:Global.BodyPlaceholder.Material
-  fullName: BodyPlaceholder.Material
-  nameWithType: BodyPlaceholder.Material
-- uid: Global.BodyPlaceholder.TerrainResolution
-  name: TerrainResolution
-  href: api/Global.BodyPlaceholder.html#Global_BodyPlaceholder_TerrainResolution
-  commentId: F:Global.BodyPlaceholder.TerrainResolution
-  fullName: BodyPlaceholder.TerrainResolution
-  nameWithType: BodyPlaceholder.TerrainResolution
-- uid: Global.BodyPlaceholder.UseBodySettings
-  name: UseBodySettings
-  href: api/Global.BodyPlaceholder.html#Global_BodyPlaceholder_UseBodySettings
-  commentId: F:Global.BodyPlaceholder.UseBodySettings
-  fullName: BodyPlaceholder.UseBodySettings
-  nameWithType: BodyPlaceholder.UseBodySettings
 - uid: Global.CelestialBody
   name: CelestialBody
   href: api/Global.CelestialBody.html
@@ -865,63 +835,12 @@ references:
   commentId: T:Global.EnemyBehaviour
   fullName: EnemyBehaviour
   nameWithType: EnemyBehaviour
-- uid: Global.EnemyBehaviour.checkPlayerVicinity
-  name: checkPlayerVicinity()
-  href: api/Global.EnemyBehaviour.html#Global_EnemyBehaviour_checkPlayerVicinity
-  commentId: M:Global.EnemyBehaviour.checkPlayerVicinity
-  fullName: EnemyBehaviour.checkPlayerVicinity()
-  nameWithType: EnemyBehaviour.checkPlayerVicinity()
-- uid: Global.EnemyBehaviour.checkPlayerVicinity*
-  name: checkPlayerVicinity
-  href: api/Global.EnemyBehaviour.html#Global_EnemyBehaviour_checkPlayerVicinity_
-  commentId: Overload:Global.EnemyBehaviour.checkPlayerVicinity
-  isSpec: "True"
-  fullName: EnemyBehaviour.checkPlayerVicinity
-  nameWithType: EnemyBehaviour.checkPlayerVicinity
 - uid: Global.EnemyBehaviour.values
   name: values
   href: api/Global.EnemyBehaviour.html#Global_EnemyBehaviour_values
   commentId: F:Global.EnemyBehaviour.values
   fullName: EnemyBehaviour.values
   nameWithType: EnemyBehaviour.values
-- uid: Global.GameStateManager
-  name: GameStateManager
-  href: api/Global.GameStateManager.html
-  commentId: T:Global.GameStateManager
-  fullName: GameStateManager
-  nameWithType: GameStateManager
-- uid: Global.GameStateManager.OpenMenu(System.Boolean)
-  name: OpenMenu(Boolean)
-  href: api/Global.GameStateManager.html#Global_GameStateManager_OpenMenu_System_Boolean_
-  commentId: M:Global.GameStateManager.OpenMenu(System.Boolean)
-  fullName: GameStateManager.OpenMenu(System.Boolean)
-  nameWithType: GameStateManager.OpenMenu(Boolean)
-- uid: Global.GameStateManager.OpenMenu*
-  name: OpenMenu
-  href: api/Global.GameStateManager.html#Global_GameStateManager_OpenMenu_
-  commentId: Overload:Global.GameStateManager.OpenMenu
-  isSpec: "True"
-  fullName: GameStateManager.OpenMenu
-  nameWithType: GameStateManager.OpenMenu
-- uid: Global.GameStateManager.ReloadScene
-  name: ReloadScene()
-  href: api/Global.GameStateManager.html#Global_GameStateManager_ReloadScene
-  commentId: M:Global.GameStateManager.ReloadScene
-  fullName: GameStateManager.ReloadScene()
-  nameWithType: GameStateManager.ReloadScene()
-- uid: Global.GameStateManager.ReloadScene*
-  name: ReloadScene
-  href: api/Global.GameStateManager.html#Global_GameStateManager_ReloadScene_
-  commentId: Overload:Global.GameStateManager.ReloadScene
-  isSpec: "True"
-  fullName: GameStateManager.ReloadScene
-  nameWithType: GameStateManager.ReloadScene
-- uid: Global.GravityObject
-  name: GravityObject
-  href: api/Global.GravityObject.html
-  commentId: T:Global.GravityObject
-  fullName: GravityObject
-  nameWithType: GravityObject
 - uid: Global.HealthBarScript
   name: HealthBarScript
   href: api/Global.HealthBarScript.html
@@ -954,156 +873,6 @@ references:
   isSpec: "True"
   fullName: HealthBarScript.TakeDamageTemporary
   nameWithType: HealthBarScript.TakeDamageTemporary
-- uid: Global.IcoSphereGenerator
-  name: IcoSphereGenerator
-  href: api/Global.IcoSphereGenerator.html
-  commentId: T:Global.IcoSphereGenerator
-  fullName: IcoSphereGenerator
-  nameWithType: IcoSphereGenerator
-- uid: Global.IcoSphereGenerator.Edge
-  name: IcoSphereGenerator.Edge
-  href: api/Global.IcoSphereGenerator.Edge.html
-  commentId: T:Global.IcoSphereGenerator.Edge
-  fullName: IcoSphereGenerator.Edge
-  nameWithType: IcoSphereGenerator.Edge
-- uid: Global.IcoSphereGenerator.Edge.#ctor(System.Int32[])
-  name: Edge(Int32[])
-  href: api/Global.IcoSphereGenerator.Edge.html#Global_IcoSphereGenerator_Edge__ctor_System_Int32___
-  commentId: M:Global.IcoSphereGenerator.Edge.#ctor(System.Int32[])
-  name.vb: Edge(Int32())
-  fullName: IcoSphereGenerator.Edge.Edge(System.Int32[])
-  fullName.vb: IcoSphereGenerator.Edge.Edge(System.Int32())
-  nameWithType: IcoSphereGenerator.Edge.Edge(Int32[])
-  nameWithType.vb: IcoSphereGenerator.Edge.Edge(Int32())
-- uid: Global.IcoSphereGenerator.Edge.#ctor*
-  name: Edge
-  href: api/Global.IcoSphereGenerator.Edge.html#Global_IcoSphereGenerator_Edge__ctor_
-  commentId: Overload:Global.IcoSphereGenerator.Edge.#ctor
-  isSpec: "True"
-  fullName: IcoSphereGenerator.Edge.Edge
-  nameWithType: IcoSphereGenerator.Edge.Edge
-- uid: Global.IcoSphereGenerator.Edge.vertexIndices
-  name: vertexIndices
-  href: api/Global.IcoSphereGenerator.Edge.html#Global_IcoSphereGenerator_Edge_vertexIndices
-  commentId: F:Global.IcoSphereGenerator.Edge.vertexIndices
-  fullName: IcoSphereGenerator.Edge.vertexIndices
-  nameWithType: IcoSphereGenerator.Edge.vertexIndices
-- uid: Global.IcoSphereGenerator.FixedSizeList`1
-  name: IcoSphereGenerator.FixedSizeList<T>
-  href: api/Global.IcoSphereGenerator.FixedSizeList-1.html
-  commentId: T:Global.IcoSphereGenerator.FixedSizeList`1
-  name.vb: IcoSphereGenerator.FixedSizeList(Of T)
-  fullName: IcoSphereGenerator.FixedSizeList<T>
-  fullName.vb: IcoSphereGenerator.FixedSizeList(Of T)
-  nameWithType: IcoSphereGenerator.FixedSizeList<T>
-  nameWithType.vb: IcoSphereGenerator.FixedSizeList(Of T)
-- uid: Global.IcoSphereGenerator.FixedSizeList`1.#ctor(System.Int32)
-  name: FixedSizeList(Int32)
-  href: api/Global.IcoSphereGenerator.FixedSizeList-1.html#Global_IcoSphereGenerator_FixedSizeList_1__ctor_System_Int32_
-  commentId: M:Global.IcoSphereGenerator.FixedSizeList`1.#ctor(System.Int32)
-  fullName: IcoSphereGenerator.FixedSizeList<T>.FixedSizeList(System.Int32)
-  fullName.vb: IcoSphereGenerator.FixedSizeList(Of T).FixedSizeList(System.Int32)
-  nameWithType: IcoSphereGenerator.FixedSizeList<T>.FixedSizeList(Int32)
-  nameWithType.vb: IcoSphereGenerator.FixedSizeList(Of T).FixedSizeList(Int32)
-- uid: Global.IcoSphereGenerator.FixedSizeList`1.#ctor*
-  name: FixedSizeList
-  href: api/Global.IcoSphereGenerator.FixedSizeList-1.html#Global_IcoSphereGenerator_FixedSizeList_1__ctor_
-  commentId: Overload:Global.IcoSphereGenerator.FixedSizeList`1.#ctor
-  isSpec: "True"
-  fullName: IcoSphereGenerator.FixedSizeList<T>.FixedSizeList
-  fullName.vb: IcoSphereGenerator.FixedSizeList(Of T).FixedSizeList
-  nameWithType: IcoSphereGenerator.FixedSizeList<T>.FixedSizeList
-  nameWithType.vb: IcoSphereGenerator.FixedSizeList(Of T).FixedSizeList
-- uid: Global.IcoSphereGenerator.FixedSizeList`1.Add(`0)
-  name: Add(T)
-  href: api/Global.IcoSphereGenerator.FixedSizeList-1.html#Global_IcoSphereGenerator_FixedSizeList_1_Add__0_
-  commentId: M:Global.IcoSphereGenerator.FixedSizeList`1.Add(`0)
-  fullName: IcoSphereGenerator.FixedSizeList<T>.Add(T)
-  fullName.vb: IcoSphereGenerator.FixedSizeList(Of T).Add(T)
-  nameWithType: IcoSphereGenerator.FixedSizeList<T>.Add(T)
-  nameWithType.vb: IcoSphereGenerator.FixedSizeList(Of T).Add(T)
-- uid: Global.IcoSphereGenerator.FixedSizeList`1.Add*
-  name: Add
-  href: api/Global.IcoSphereGenerator.FixedSizeList-1.html#Global_IcoSphereGenerator_FixedSizeList_1_Add_
-  commentId: Overload:Global.IcoSphereGenerator.FixedSizeList`1.Add
-  isSpec: "True"
-  fullName: IcoSphereGenerator.FixedSizeList<T>.Add
-  fullName.vb: IcoSphereGenerator.FixedSizeList(Of T).Add
-  nameWithType: IcoSphereGenerator.FixedSizeList<T>.Add
-  nameWithType.vb: IcoSphereGenerator.FixedSizeList(Of T).Add
-- uid: Global.IcoSphereGenerator.FixedSizeList`1.AddRange(System.Collections.Generic.IEnumerable{`0})
-  name: AddRange(IEnumerable<T>)
-  href: api/Global.IcoSphereGenerator.FixedSizeList-1.html#Global_IcoSphereGenerator_FixedSizeList_1_AddRange_System_Collections_Generic_IEnumerable__0__
-  commentId: M:Global.IcoSphereGenerator.FixedSizeList`1.AddRange(System.Collections.Generic.IEnumerable{`0})
-  name.vb: AddRange(IEnumerable(Of T))
-  fullName: IcoSphereGenerator.FixedSizeList<T>.AddRange(System.Collections.Generic.IEnumerable<T>)
-  fullName.vb: IcoSphereGenerator.FixedSizeList(Of T).AddRange(System.Collections.Generic.IEnumerable(Of T))
-  nameWithType: IcoSphereGenerator.FixedSizeList<T>.AddRange(IEnumerable<T>)
-  nameWithType.vb: IcoSphereGenerator.FixedSizeList(Of T).AddRange(IEnumerable(Of T))
-- uid: Global.IcoSphereGenerator.FixedSizeList`1.AddRange*
-  name: AddRange
-  href: api/Global.IcoSphereGenerator.FixedSizeList-1.html#Global_IcoSphereGenerator_FixedSizeList_1_AddRange_
-  commentId: Overload:Global.IcoSphereGenerator.FixedSizeList`1.AddRange
-  isSpec: "True"
-  fullName: IcoSphereGenerator.FixedSizeList<T>.AddRange
-  fullName.vb: IcoSphereGenerator.FixedSizeList(Of T).AddRange
-  nameWithType: IcoSphereGenerator.FixedSizeList<T>.AddRange
-  nameWithType.vb: IcoSphereGenerator.FixedSizeList(Of T).AddRange
-- uid: Global.IcoSphereGenerator.FixedSizeList`1.items
-  name: items
-  href: api/Global.IcoSphereGenerator.FixedSizeList-1.html#Global_IcoSphereGenerator_FixedSizeList_1_items
-  commentId: F:Global.IcoSphereGenerator.FixedSizeList`1.items
-  fullName: IcoSphereGenerator.FixedSizeList<T>.items
-  fullName.vb: IcoSphereGenerator.FixedSizeList(Of T).items
-  nameWithType: IcoSphereGenerator.FixedSizeList<T>.items
-  nameWithType.vb: IcoSphereGenerator.FixedSizeList(Of T).items
-- uid: Global.IcoSphereGenerator.FixedSizeList`1.nextIndex
-  name: nextIndex
-  href: api/Global.IcoSphereGenerator.FixedSizeList-1.html#Global_IcoSphereGenerator_FixedSizeList_1_nextIndex
-  commentId: F:Global.IcoSphereGenerator.FixedSizeList`1.nextIndex
-  fullName: IcoSphereGenerator.FixedSizeList<T>.nextIndex
-  fullName.vb: IcoSphereGenerator.FixedSizeList(Of T).nextIndex
-  nameWithType: IcoSphereGenerator.FixedSizeList<T>.nextIndex
-  nameWithType.vb: IcoSphereGenerator.FixedSizeList(Of T).nextIndex
-- uid: Global.IcoSphereGenerator.Generate(System.Int32)
-  name: Generate(Int32)
-  href: api/Global.IcoSphereGenerator.html#Global_IcoSphereGenerator_Generate_System_Int32_
-  commentId: M:Global.IcoSphereGenerator.Generate(System.Int32)
-  fullName: IcoSphereGenerator.Generate(System.Int32)
-  nameWithType: IcoSphereGenerator.Generate(Int32)
-- uid: Global.IcoSphereGenerator.Generate*
-  name: Generate
-  href: api/Global.IcoSphereGenerator.html#Global_IcoSphereGenerator_Generate_
-  commentId: Overload:Global.IcoSphereGenerator.Generate
-  isSpec: "True"
-  fullName: IcoSphereGenerator.Generate
-  nameWithType: IcoSphereGenerator.Generate
-- uid: Global.IcoSphereGenerator.Triangles
-  name: Triangles
-  href: api/Global.IcoSphereGenerator.html#Global_IcoSphereGenerator_Triangles
-  commentId: P:Global.IcoSphereGenerator.Triangles
-  fullName: IcoSphereGenerator.Triangles
-  nameWithType: IcoSphereGenerator.Triangles
-- uid: Global.IcoSphereGenerator.Triangles*
-  name: Triangles
-  href: api/Global.IcoSphereGenerator.html#Global_IcoSphereGenerator_Triangles_
-  commentId: Overload:Global.IcoSphereGenerator.Triangles
-  isSpec: "True"
-  fullName: IcoSphereGenerator.Triangles
-  nameWithType: IcoSphereGenerator.Triangles
-- uid: Global.IcoSphereGenerator.Vertices
-  name: Vertices
-  href: api/Global.IcoSphereGenerator.html#Global_IcoSphereGenerator_Vertices
-  commentId: P:Global.IcoSphereGenerator.Vertices
-  fullName: IcoSphereGenerator.Vertices
-  nameWithType: IcoSphereGenerator.Vertices
-- uid: Global.IcoSphereGenerator.Vertices*
-  name: Vertices
-  href: api/Global.IcoSphereGenerator.html#Global_IcoSphereGenerator_Vertices_
-  commentId: Overload:Global.IcoSphereGenerator.Vertices
-  isSpec: "True"
-  fullName: IcoSphereGenerator.Vertices
-  nameWithType: IcoSphereGenerator.Vertices
 - uid: Global.InfoCircleScript
   name: InfoCircleScript
   href: api/Global.InfoCircleScript.html
@@ -1833,25 +1602,25 @@ references:
   commentId: F:Global.MainCamera.spaceShip
   fullName: MainCamera.spaceShip
   nameWithType: MainCamera.spaceShip
-- uid: Global.MenuManagerScript
-  name: MenuManagerScript
-  href: api/Global.MenuManagerScript.html
-  commentId: T:Global.MenuManagerScript
-  fullName: MenuManagerScript
-  nameWithType: MenuManagerScript
-- uid: Global.MenuManagerScript.LoadGameScene
+- uid: Global.MainMenuManager
+  name: MainMenuManager
+  href: api/Global.MainMenuManager.html
+  commentId: T:Global.MainMenuManager
+  fullName: MainMenuManager
+  nameWithType: MainMenuManager
+- uid: Global.MainMenuManager.LoadGameScene
   name: LoadGameScene()
-  href: api/Global.MenuManagerScript.html#Global_MenuManagerScript_LoadGameScene
-  commentId: M:Global.MenuManagerScript.LoadGameScene
-  fullName: MenuManagerScript.LoadGameScene()
-  nameWithType: MenuManagerScript.LoadGameScene()
-- uid: Global.MenuManagerScript.LoadGameScene*
+  href: api/Global.MainMenuManager.html#Global_MainMenuManager_LoadGameScene
+  commentId: M:Global.MainMenuManager.LoadGameScene
+  fullName: MainMenuManager.LoadGameScene()
+  nameWithType: MainMenuManager.LoadGameScene()
+- uid: Global.MainMenuManager.LoadGameScene*
   name: LoadGameScene
-  href: api/Global.MenuManagerScript.html#Global_MenuManagerScript_LoadGameScene_
-  commentId: Overload:Global.MenuManagerScript.LoadGameScene
+  href: api/Global.MainMenuManager.html#Global_MainMenuManager_LoadGameScene_
+  commentId: Overload:Global.MainMenuManager.LoadGameScene
   isSpec: "True"
-  fullName: MenuManagerScript.LoadGameScene
-  nameWithType: MenuManagerScript.LoadGameScene
+  fullName: MainMenuManager.LoadGameScene
+  nameWithType: MainMenuManager.LoadGameScene
 - uid: Global.MeteorSpawner
   name: MeteorSpawner
   href: api/Global.MeteorSpawner.html
@@ -1928,45 +1697,6 @@ references:
   commentId: F:Global.MeteorSpawnerField.SettingsFoldout
   fullName: MeteorSpawnerField.SettingsFoldout
   nameWithType: MeteorSpawnerField.SettingsFoldout
-- uid: Global.MeteorSpawnerField.SpawnCollectables
-  name: SpawnCollectables()
-  href: api/Global.MeteorSpawnerField.html#Global_MeteorSpawnerField_SpawnCollectables
-  commentId: M:Global.MeteorSpawnerField.SpawnCollectables
-  fullName: MeteorSpawnerField.SpawnCollectables()
-  nameWithType: MeteorSpawnerField.SpawnCollectables()
-- uid: Global.MeteorSpawnerField.SpawnCollectables*
-  name: SpawnCollectables
-  href: api/Global.MeteorSpawnerField.html#Global_MeteorSpawnerField_SpawnCollectables_
-  commentId: Overload:Global.MeteorSpawnerField.SpawnCollectables
-  isSpec: "True"
-  fullName: MeteorSpawnerField.SpawnCollectables
-  nameWithType: MeteorSpawnerField.SpawnCollectables
-- uid: Global.MeteorSpawnerField.SpawnEnemies
-  name: SpawnEnemies()
-  href: api/Global.MeteorSpawnerField.html#Global_MeteorSpawnerField_SpawnEnemies
-  commentId: M:Global.MeteorSpawnerField.SpawnEnemies
-  fullName: MeteorSpawnerField.SpawnEnemies()
-  nameWithType: MeteorSpawnerField.SpawnEnemies()
-- uid: Global.MeteorSpawnerField.SpawnEnemies*
-  name: SpawnEnemies
-  href: api/Global.MeteorSpawnerField.html#Global_MeteorSpawnerField_SpawnEnemies_
-  commentId: Overload:Global.MeteorSpawnerField.SpawnEnemies
-  isSpec: "True"
-  fullName: MeteorSpawnerField.SpawnEnemies
-  nameWithType: MeteorSpawnerField.SpawnEnemies
-- uid: Global.MeteorSpawnerField.SpawnMeteors
-  name: SpawnMeteors()
-  href: api/Global.MeteorSpawnerField.html#Global_MeteorSpawnerField_SpawnMeteors
-  commentId: M:Global.MeteorSpawnerField.SpawnMeteors
-  fullName: MeteorSpawnerField.SpawnMeteors()
-  nameWithType: MeteorSpawnerField.SpawnMeteors()
-- uid: Global.MeteorSpawnerField.SpawnMeteors*
-  name: SpawnMeteors
-  href: api/Global.MeteorSpawnerField.html#Global_MeteorSpawnerField_SpawnMeteors_
-  commentId: Overload:Global.MeteorSpawnerField.SpawnMeteors
-  isSpec: "True"
-  fullName: MeteorSpawnerField.SpawnMeteors
-  nameWithType: MeteorSpawnerField.SpawnMeteors
 - uid: Global.MeteorSpawnerField.Start
   name: Start()
   href: api/Global.MeteorSpawnerField.html#Global_MeteorSpawnerField_Start
@@ -2186,24 +1916,38 @@ references:
   commentId: F:Global.NBodySimulation.SpeedReduction
   fullName: NBodySimulation.SpeedReduction
   nameWithType: NBodySimulation.SpeedReduction
-- uid: Global.PlanetaryRotatorForEntities
-  name: PlanetaryRotatorForEntities
-  href: api/Global.PlanetaryRotatorForEntities.html
-  commentId: T:Global.PlanetaryRotatorForEntities
-  fullName: PlanetaryRotatorForEntities
-  nameWithType: PlanetaryRotatorForEntities
-- uid: Global.PlanetaryRotatorForEntities._ShipSpeed
-  name: _ShipSpeed
-  href: api/Global.PlanetaryRotatorForEntities.html#Global_PlanetaryRotatorForEntities__ShipSpeed
-  commentId: F:Global.PlanetaryRotatorForEntities._ShipSpeed
-  fullName: PlanetaryRotatorForEntities._ShipSpeed
-  nameWithType: PlanetaryRotatorForEntities._ShipSpeed
-- uid: Global.PlanetaryRotatorForEntities.ship
-  name: ship
-  href: api/Global.PlanetaryRotatorForEntities.html#Global_PlanetaryRotatorForEntities_ship
-  commentId: F:Global.PlanetaryRotatorForEntities.ship
-  fullName: PlanetaryRotatorForEntities.ship
-  nameWithType: PlanetaryRotatorForEntities.ship
+- uid: Global.PauseMenuManager
+  name: PauseMenuManager
+  href: api/Global.PauseMenuManager.html
+  commentId: T:Global.PauseMenuManager
+  fullName: PauseMenuManager
+  nameWithType: PauseMenuManager
+- uid: Global.PauseMenuManager.OpenMenu(System.Boolean)
+  name: OpenMenu(Boolean)
+  href: api/Global.PauseMenuManager.html#Global_PauseMenuManager_OpenMenu_System_Boolean_
+  commentId: M:Global.PauseMenuManager.OpenMenu(System.Boolean)
+  fullName: PauseMenuManager.OpenMenu(System.Boolean)
+  nameWithType: PauseMenuManager.OpenMenu(Boolean)
+- uid: Global.PauseMenuManager.OpenMenu*
+  name: OpenMenu
+  href: api/Global.PauseMenuManager.html#Global_PauseMenuManager_OpenMenu_
+  commentId: Overload:Global.PauseMenuManager.OpenMenu
+  isSpec: "True"
+  fullName: PauseMenuManager.OpenMenu
+  nameWithType: PauseMenuManager.OpenMenu
+- uid: Global.PauseMenuManager.ReloadScene
+  name: ReloadScene()
+  href: api/Global.PauseMenuManager.html#Global_PauseMenuManager_ReloadScene
+  commentId: M:Global.PauseMenuManager.ReloadScene
+  fullName: PauseMenuManager.ReloadScene()
+  nameWithType: PauseMenuManager.ReloadScene()
+- uid: Global.PauseMenuManager.ReloadScene*
+  name: ReloadScene
+  href: api/Global.PauseMenuManager.html#Global_PauseMenuManager_ReloadScene_
+  commentId: Overload:Global.PauseMenuManager.ReloadScene
+  isSpec: "True"
+  fullName: PauseMenuManager.ReloadScene
+  nameWithType: PauseMenuManager.ReloadScene
 - uid: Global.PlayerRankEntry
   name: PlayerRankEntry
   href: api/Global.PlayerRankEntry.html
@@ -2262,6 +2006,12 @@ references:
   isSpec: "True"
   fullName: PlayerRankEntry.ToString
   nameWithType: PlayerRankEntry.ToString
+- uid: Global.PostProcessingManager
+  name: PostProcessingManager
+  href: api/Global.PostProcessingManager.html
+  commentId: T:Global.PostProcessingManager
+  fullName: PostProcessingManager
+  nameWithType: PostProcessingManager
 - uid: Global.RocketBehaivor
   name: RocketBehaivor
   href: api/Global.RocketBehaivor.html
@@ -2300,54 +2050,6 @@ references:
   isSpec: "True"
   fullName: RocketLauncherWeapon.FireProjectile
   nameWithType: RocketLauncherWeapon.FireProjectile
-- uid: Global.RotateEverything
-  name: RotateEverything
-  href: api/Global.RotateEverything.html
-  commentId: T:Global.RotateEverything
-  fullName: RotateEverything
-  nameWithType: RotateEverything
-- uid: Global.RotateEverything._Gravit_Rotation
-  name: _Gravit_Rotation
-  href: api/Global.RotateEverything.html#Global_RotateEverything__Gravit_Rotation
-  commentId: F:Global.RotateEverything._Gravit_Rotation
-  fullName: RotateEverything._Gravit_Rotation
-  nameWithType: RotateEverything._Gravit_Rotation
-- uid: Global.RotateEverything._Rotation
-  name: _Rotation
-  href: api/Global.RotateEverything.html#Global_RotateEverything__Rotation
-  commentId: F:Global.RotateEverything._Rotation
-  fullName: RotateEverything._Rotation
-  nameWithType: RotateEverything._Rotation
-- uid: Global.RotateEverything._ShipSpeed
-  name: _ShipSpeed
-  href: api/Global.RotateEverything.html#Global_RotateEverything__ShipSpeed
-  commentId: F:Global.RotateEverything._ShipSpeed
-  fullName: RotateEverything._ShipSpeed
-  nameWithType: RotateEverything._ShipSpeed
-- uid: Global.RotateEverything.ship
-  name: ship
-  href: api/Global.RotateEverything.html#Global_RotateEverything_ship
-  commentId: F:Global.RotateEverything.ship
-  fullName: RotateEverything.ship
-  nameWithType: RotateEverything.ship
-- uid: Global.RotateEverything.ship2
-  name: ship2
-  href: api/Global.RotateEverything.html#Global_RotateEverything_ship2
-  commentId: F:Global.RotateEverything.ship2
-  fullName: RotateEverything.ship2
-  nameWithType: RotateEverything.ship2
-- uid: Global.RotateEverything.sun
-  name: sun
-  href: api/Global.RotateEverything.html#Global_RotateEverything_sun
-  commentId: F:Global.RotateEverything.sun
-  fullName: RotateEverything.sun
-  nameWithType: RotateEverything.sun
-- uid: Global.RotateScript
-  name: RotateScript
-  href: api/Global.RotateScript.html
-  commentId: T:Global.RotateScript
-  fullName: RotateScript
-  nameWithType: RotateScript
 - uid: Global.SelectionBarIconManager
   name: SelectionBarIconManager
   href: api/Global.SelectionBarIconManager.html
@@ -2412,6 +2114,12 @@ references:
   commentId: T:Global.SelectionBarManager
   fullName: SelectionBarManager
   nameWithType: SelectionBarManager
+- uid: Global.SerialCommunicationTestScript
+  name: SerialCommunicationTestScript
+  href: api/Global.SerialCommunicationTestScript.html
+  commentId: T:Global.SerialCommunicationTestScript
+  fullName: SerialCommunicationTestScript
+  nameWithType: SerialCommunicationTestScript
 - uid: Global.SettingsManager
   name: SettingsManager
   href: api/Global.SettingsManager.html
@@ -2495,6 +2203,12 @@ references:
   isSpec: "True"
   fullName: SpaceshipControls.Boost
   nameWithType: SpaceshipControls.Boost
+- uid: Global.SpaceshipControls.cursorTexture
+  name: cursorTexture
+  href: api/Global.SpaceshipControls.html#Global_SpaceshipControls_cursorTexture
+  commentId: F:Global.SpaceshipControls.cursorTexture
+  fullName: SpaceshipControls.cursorTexture
+  nameWithType: SpaceshipControls.cursorTexture
 - uid: Global.SpaceshipControls.enableDrifting
   name: enableDrifting
   href: api/Global.SpaceshipControls.html#Global_SpaceshipControls_enableDrifting
@@ -2592,19 +2306,6 @@ references:
   isSpec: "True"
   fullName: SpaceshipControls.getRollPerFrame
   nameWithType: SpaceshipControls.getRollPerFrame
-- uid: Global.SpaceshipControls.getShootingDirection
-  name: getShootingDirection()
-  href: api/Global.SpaceshipControls.html#Global_SpaceshipControls_getShootingDirection
-  commentId: M:Global.SpaceshipControls.getShootingDirection
-  fullName: SpaceshipControls.getShootingDirection()
-  nameWithType: SpaceshipControls.getShootingDirection()
-- uid: Global.SpaceshipControls.getShootingDirection*
-  name: getShootingDirection
-  href: api/Global.SpaceshipControls.html#Global_SpaceshipControls_getShootingDirection_
-  commentId: Overload:Global.SpaceshipControls.getShootingDirection
-  isSpec: "True"
-  fullName: SpaceshipControls.getShootingDirection
-  nameWithType: SpaceshipControls.getShootingDirection
 - uid: Global.SpaceshipControls.Move(System.Single)
   name: Move(Single)
   href: api/Global.SpaceshipControls.html#Global_SpaceshipControls_Move_System_Single_
@@ -2663,19 +2364,6 @@ references:
   isSpec: "True"
   fullName: SpaceshipControls.setBoostMultiplier
   nameWithType: SpaceshipControls.setBoostMultiplier
-- uid: Global.SpaceshipControls.SetCrosshairPosition(Vector2)
-  name: SetCrosshairPosition(Vector2)
-  href: api/Global.SpaceshipControls.html#Global_SpaceshipControls_SetCrosshairPosition_Vector2_
-  commentId: M:Global.SpaceshipControls.SetCrosshairPosition(Vector2)
-  fullName: SpaceshipControls.SetCrosshairPosition(Vector2)
-  nameWithType: SpaceshipControls.SetCrosshairPosition(Vector2)
-- uid: Global.SpaceshipControls.SetCrosshairPosition*
-  name: SetCrosshairPosition
-  href: api/Global.SpaceshipControls.html#Global_SpaceshipControls_SetCrosshairPosition_
-  commentId: Overload:Global.SpaceshipControls.SetCrosshairPosition
-  isSpec: "True"
-  fullName: SpaceshipControls.SetCrosshairPosition
-  nameWithType: SpaceshipControls.SetCrosshairPosition
 - uid: Global.SpaceshipControls.setMaxBoostDuration(System.Int32)
   name: setMaxBoostDuration(Int32)
   href: api/Global.SpaceshipControls.html#Global_SpaceshipControls_setMaxBoostDuration_System_Int32_
@@ -2715,18 +2403,12 @@ references:
   isSpec: "True"
   fullName: SpaceshipControls.setRollPerFrame
   nameWithType: SpaceshipControls.setRollPerFrame
-- uid: Global.SpaceshipControls.useAlternativeMouseInput
-  name: useAlternativeMouseInput
-  href: api/Global.SpaceshipControls.html#Global_SpaceshipControls_useAlternativeMouseInput
-  commentId: F:Global.SpaceshipControls.useAlternativeMouseInput
-  fullName: SpaceshipControls.useAlternativeMouseInput
-  nameWithType: SpaceshipControls.useAlternativeMouseInput
-- uid: Global.SpaceshipControls.velocity
-  name: velocity
-  href: api/Global.SpaceshipControls.html#Global_SpaceshipControls_velocity
-  commentId: F:Global.SpaceshipControls.velocity
-  fullName: SpaceshipControls.velocity
-  nameWithType: SpaceshipControls.velocity
+- uid: Global.SpaceshipControls.useJoystick
+  name: useJoystick
+  href: api/Global.SpaceshipControls.html#Global_SpaceshipControls_useJoystick
+  commentId: F:Global.SpaceshipControls.useJoystick
+  fullName: SpaceshipControls.useJoystick
+  nameWithType: SpaceshipControls.useJoystick
 - uid: Global.SpeedDisplay
   name: SpeedDisplay
   href: api/Global.SpeedDisplay.html
@@ -2929,24 +2611,6 @@ references:
   commentId: F:Global.Target.Enemy
   fullName: Target.Enemy
   nameWithType: Target.Enemy
-- uid: Global.TerrainGenerator
-  name: TerrainGenerator
-  href: api/Global.TerrainGenerator.html
-  commentId: T:Global.TerrainGenerator
-  fullName: TerrainGenerator
-  nameWithType: TerrainGenerator
-- uid: Global.TerrainGenerator.material
-  name: material
-  href: api/Global.TerrainGenerator.html#Global_TerrainGenerator_material
-  commentId: F:Global.TerrainGenerator.material
-  fullName: TerrainGenerator.material
-  nameWithType: TerrainGenerator.material
-- uid: Global.TerrainGenerator.terrainResolution
-  name: terrainResolution
-  href: api/Global.TerrainGenerator.html#Global_TerrainGenerator_terrainResolution
-  commentId: F:Global.TerrainGenerator.terrainResolution
-  fullName: TerrainGenerator.terrainResolution
-  nameWithType: TerrainGenerator.terrainResolution
 - uid: Global.Ui_inventory
   name: Ui_inventory
   href: api/Global.Ui_inventory.html
@@ -3052,12 +2716,6 @@ references:
   commentId: T:Global.Universe
   fullName: Universe
   nameWithType: Universe
-- uid: Global.Universe.CheatsEnabled
-  name: CheatsEnabled
-  href: api/Global.Universe.html#Global_Universe_CheatsEnabled
-  commentId: F:Global.Universe.CheatsEnabled
-  fullName: Universe.CheatsEnabled
-  nameWithType: Universe.CheatsEnabled
 - uid: Global.Universe.GravitationalConstant
   name: GravitationalConstant
   href: api/Global.Universe.html#Global_Universe_GravitationalConstant
